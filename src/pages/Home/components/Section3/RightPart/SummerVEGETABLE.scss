@@ -1,0 +1,36 @@
+
+#main-home {
+
+   .imgsummerveg{
+    height: 210px;
+    min-height: 60px;
+    background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/14.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+    position: relative;
+
+   }
+
+    .ls-expanded {
+        letter-spacing: 12px;
+
+    }
+ 
+    @media(max-width:991px){
+        //md & sm & xs
+        .banner-title{
+             font-size:33.0px !important;
+        }
+    }
+ .banner-title {
+        font-size: 49px;
+        font-weight: 700;
+    }
+
+}

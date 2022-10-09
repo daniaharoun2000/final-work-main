@@ -1,0 +1,43 @@
+#main-home {
+  .cashboxx {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+ 
+    position: relative;
+  
+ }
+  .coupon-code {
+    background-color: rgba(10, 104, 86, 0.4);
+    border: 2px dashed rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    font-weight: 500;
+  
+  }
+  .cash-details  {
+    font-size: 28px;
+    font-weight: 700px;
+
+
+  }
+  .imgbootstrap{
+
+    height: 120px;
+    min-height: 120px;
+    background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/15.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+}

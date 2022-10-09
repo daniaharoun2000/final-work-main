@@ -1,0 +1,92 @@
+#main-about {
+
+.fresh-vegetable-section .fresh-image-2 {
+    border-radius: 0 50px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.imgonebg{
+    background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/inner-page/about-us/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+
+}
+.ratio_148 .bg-size::before {
+    content: "";
+    padding-top: 148%;
+    display: block;
+}
+
+img {
+    border-style: none;
+}
+img, svg {
+    vertical-align: middle;
+}
+.fresh-vegetable-section .fresh-image {
+    margin-top: 30px;
+    border-radius: 50px 0;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.imgtwobg{
+    background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/inner-page/about-us/2.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+display: block;
+}
+.fresh-vegetable-section .fresh-contain {
+    height: 100%;
+}
+.p-center-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.fresh-vegetable-section .delivery-list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: calc(11px + (20 - 11) * ((100vw - 320px) / (1920 - 320)));
+}
+.fresh-vegetable-section .delivery-list ul li {
+    width: 100%;
+}
+.fresh-vegetable-section .delivery-box li .delivery-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 12px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 0;
+}
+.fresh-vegetable-section .delivery-box li .delivery-box .delivery-icon img {
+    width: 30px;
+    height: auto;
+}
+.review-title h2 {
+    font-size: calc(28px + (40 - 28) * ((100vw - 320px) / (1920 - 320)));
+    margin-bottom: calc(12px + (30 - 12) * ((100vw - 320px) / (1920 - 320)));
+    width: 80%;
+    line-height: 1.3;
+    position: relative;
+}
+}

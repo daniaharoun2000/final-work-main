@@ -1,0 +1,140 @@
+
+//here is a scss for all project
+//import scss files :
+@import "../src/pages/Home/components/MobileNavbar/MobileMenu.scss";
+@import "pages/Home/Footer/Footer.scss";
+@import "./pages/Home/components/Section1/Section1.scss";
+@import "./pages/Home/components/Section2/Section2.scss";
+@import "./pages/Home/components/Section3/Section3LeftPart.scss";
+@import "./pages/Home/components/Section3/RightPart/TopSaveToday.scss";
+@import "./pages/Home/components/Cookies/Cookies.scss";
+@import "./pages/Home/components/ScrollButton.scss";
+@import "./pages/Home/components/Section4/Newsletter.scss";
+
+
+//these is my colors:
+$theme-colors: (
+  "primary": #0da487,
+  "dania": #0f0e0e,
+  "badge": #ffffff,
+  "dd": #ff4f4f,
+  "aa": #4a5568,
+  "cat": #f8f8f8,
+  "yellow": #ffb321,
+  "gray": #222,
+  "gg": #e6edf9,
+  "pink": #ffe1e1,
+);
+
+@import "~bootstrap/scss/bootstrap";
+//root foe index.js
+#root {
+  max-width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+  min-width: 320px;
+ height:  auto;
+}
+
+//text-overflow code to use it in my code
+.text-overflow {
+  &-1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  &-2 {
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  &-3 {
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  &-4 {
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+}
+//bg-effect that do a background img in App function
+.bg-effect {
+  background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/bg-body.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+//to make  a max width -1599 in all sizes to be as same as the original website
+@media (min-width: 1700px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1599px;
+  }
+}
+
+//title-leaf styling that is used in multiple sections 
+.title-leaf {
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  height: 1px;
+  left: 0;
+  background-color:#0da487;
+  z-index: -1;
+
+      width: 140px;
+      text-align: center;
+      margin-top: 7px;
+      position: relative;
+      z-index: 0;
+}
+.title-leaf::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  height: 1px;
+  left: 0;
+  background-color: var(--theme-color);
+  z-index: -1;
+}
+.title-leaf img {
+  background-color: #fff;
+  width: 45px;
+  z-index: 1;
+ position: fixed;
+ margin: -9% -12% ;
+}
+
+//btn styling that is used in multiple sections 
+
+.btn {
+  display: flex;
+
+  padding: 8px 16px;
+  font-weight: 500px;
+
+  font-size: 14px;
+  z-index: 0;
+  white-space: nowrap;
+}
+
+

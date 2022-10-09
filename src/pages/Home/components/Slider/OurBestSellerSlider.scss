@@ -1,0 +1,71 @@
+#main-home {
+
+///card name size according to screen size
+ .cardname{
+    //xs
+    line-height: 22px;
+        height: 25px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+    @media (min-width: 576px) {
+//sm 
+ 
+        line-height: 22px;
+        height: 25px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+    }
+    @media (min-width: 768px) {
+//md & lg & xl & xxl
+       
+            line-height: 22px;
+            height: 45px;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            overflow: hidden;
+        }
+        
+    }
+ .product-list li+li:after {
+        content: "";
+        position: absolute;
+        top: -28px;
+        right: 0;
+        border-bottom: 1px dashed rgba(74,85,104,0.3);
+        width: calc(100% - 90px);
+    }
+
+     .price {
+        margin-top: 6px;
+        font-weight: 600;
+        margin-bottom: -2px;
+    }
+   
+    .product-list li .offer-product .offer-image img {
+        width: 80px;
+        height: 80px;
+    
+        object-fit: contain;
+        
+
+    }
+    .product-list li {
+ 
+        position: relative;
+        display: -webkit-box;
+    }
+    .product-list li .offer-product {
+        width: 100%;
+        height: 100%;
+        display: flex;
+     
+        align-items: center;
+    }
+   
+   
+    }

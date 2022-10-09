@@ -1,0 +1,95 @@
+#main-home {
+    
+
+ .timingsvg {
+    width: 17px;
+    height: 17px;
+    
+}
+ .timeboxsection3{
+    width:247px;
+height: 41px;
+
+ }
+ .timeboxsection3:hover{
+    transform: scale(0.9); 
+
+ }
+
+.icon-width {
+    width: 25px;
+    height: 25px;
+}
+
+    .name{
+    font-weight: 600;
+    line-height: 22px;
+    height: 45px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+.dell {
+    font-weight: 400;
+    margin-left: 6px;
+    font-size: calc(13px + (14 - 13) * ((100vw - 320px) / (1920 - 320)));
+}
+.label-tag {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    padding: 5px 13px;
+    background-color: #FFBA00;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    z-index: 1;
+}
+.label-tag::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 44px;
+    border-bottom: solid 15px #faba02;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    z-index: 1;
+}
+ .label-tag::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 16px;
+    left: 44px;
+    border-bottom: solid 15px #faba02;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    z-index: 1;
+}
+.margintoptodayimage{
+   
+   
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    object-fit: contain;
+    height: 140px;
+
+}
+
+.imghovering:hover  {
+   transform: scale(1.1); 
+}
+.cardhovering:hover  {
+   background-color:  #ededed,
+   ;
+ }
+}

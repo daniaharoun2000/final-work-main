@@ -1,0 +1,235 @@
+#main-header {
+
+  //////////////////////////section 1/////////////////////////////
+
+//fontweight in section 1
+.fontweight{
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Public Sans",sans-serif;
+  position: relative;
+}
+//iconweight in section 1
+
+.iconweight{
+  font-size: 18px;
+
+  font-weight:500;
+}
+  //vartline in section 1
+
+.vartline{
+  content: "";
+  width: 2px;
+  height: 90%;
+  background-color: rgba(255,255,255,0.3);
+}
+//flag in section 1
+.flag{
+  width: 20px; 
+}
+
+//modalstyle in section 1
+
+.modalstyle{
+  max-height: calc(100vh - 200px);
+ overflow: auto; overflow-y: auto;
+ max-width: 850px;
+ margin: 2rem auto;
+ gap: 13px;
+ row-gap: 13px;
+ column-gap: 13px;
+}
+
+  //////////////////////////section 2/////////////////////////////
+// fixed-nav in section 2
+
+.fixed-nav {
+  z-index: 999;
+}
+
+  //locationbuttontwo in section 2
+
+  .locationbuttontwo{
+    border-radius: 5px;
+    border: 1px solid #ececec;
+  }
+    //searchicon in section 2
+
+  .searchicon {
+    background-color: #ffa53b;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 5px;
+    border: 1px solid #ffa53b;
+  }
+  // location icon in section 2
+  .locationicon {
+    width: 16px;
+    height: 16px;
+    background-color: #f3f5f9;  
+  }
+  
+  // location text in section 2
+
+  .locationtext {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0da487;
+   
+   }
+   //locationbox in section 2
+
+.locationbox{
+  border-radius: 5px;
+  border: 1px solid #ececec;
+  position: relative;
+  height: 100%;
+}
+  //////////////////////////section 3/////////////////////////////
+  //dropdown-toggle in section 3 (navbar)
+  .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.15em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+    // dropdown-item in section 3
+
+   .dropdown-item:hover  {
+    color: #0da487;
+   
+    background-color: #ffffff;
+    
+}
+    // img in section 3
+
+.imghovering:hover  {
+  transform: scale(0.8); 
+}
+//All Categories dropdown  in section 3
+.sectuin3allcatogtext{
+  font-size: 15px;
+    font-weight: 500;
+}
+//All Categories dropdown  in section 3
+
+.sectuin3allcatogtext:hover{
+  color: #0da487;
+}
+//Mega Menue in section 3
+
+   .megabg::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+//dropdown in section 3
+.dropdownsizee{
+  width: 800px !important;
+}
+//imgg in section 3
+
+.imgg{
+  width: 115px;
+}
+
+      //contactbuttonsection3 in section 3
+
+  .contactbuttonsection3 {
+    background-color: #fff;
+    color: black;
+    border: none;
+  }
+        //DealTodaybutton in section 3
+
+  .DealTodaybutton {
+    color: #0da487;
+    border: none;
+  
+    background-color: #e7f6f3;
+   
+  }
+  .DealTodaybutton:hover{
+    color: #0da487;
+  }
+          //AllCategories in section 3
+
+  .AllCategories {
+    width: 100%;
+    height: 100%;
+   
+    font-size: 120%;
+  }
+  .AllCategories:hover{
+    color: #e7f6f3;
+  }
+  .AllCategories::after {
+    display: none !important; 
+  }
+  // angleicon in locationbar
+  .angleicon {
+    width: 7%;
+  }
+    // section3lesicon in section 3
+
+  .section3lesicon {
+    width: 16%;
+  }
+    
+  
+      // dropdown-item in section 3
+
+  .dropdown-item::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    bottom: 2px;
+    left: 0;
+    background-color: #0da487;
+    opacity: 0.3;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+   //////////////////////////All Sections/////////////////////////////
+
+.header ul {
+  list-style: none;
+
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin: 0 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header button {
+  font: inherit;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+
+
+}

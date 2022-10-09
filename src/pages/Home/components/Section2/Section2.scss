@@ -1,0 +1,41 @@
+#main-home {
+  /////////////////////////////////Section 2:
+
+  .divsection2 {
+    display: block;
+    
+  }
+  .banner-contain {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+   
+  }
+
+  .banner-contain .banner-details .banner-box {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    border-radius: 0px 60px 60px 0px;
+
+    box-shadow: 0px 11px 10px rgb(74 85 104 / 6%);
+  }
+  .banner-contain .banner-details .banner-button {
+    position: absolute;
+    bottom: 13.6px;
+    left: 19.6px;
+    color: #fff;
+    font-weight: 600;
+
+    display: flex;
+
+    align-items: center;
+  }
+
+  .banner-contain:hover {
+    opacity: 0.6;
+  }
+  
+}

@@ -1,0 +1,124 @@
+#main-home {
+  // here is multi font size for multi screen sizes
+  .homecontain {
+    font-size: 16px;
+    width: 80%;
+    line-height: 1.4;
+    text-transform: uppercase !important;
+    
+    @media (min-width: 576px) {
+    
+      font-size: 27px;
+      width: 80%;
+      line-height: 1.4;
+      text-transform: uppercase !important;
+    }
+  @media (min-width: 768px) {
+    
+      font-size: 46px;
+      width: 80%;
+      line-height: 1.4;
+      text-transform: uppercase !important;
+    }
+  
+
+  }
+  .gfg {
+    background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+  }
+  .ratio_65 .gfg:before {
+    content: "";
+    padding-top: 65%;
+    display: block;
+ 
+}
+  // here is multi width & height for multi screen sizes
+.gfg{
+  height: 249px;//xs
+
+  @media (min-width: 576px) {
+    // sm & up
+    height: 323px;
+  }
+
+  @media (min-width: 768px) {
+    // md & up
+    height: 429px;
+  }
+
+  @media (min-width: 992px) { 
+    // lg &xl 992-1399
+    height:689px;
+  } 
+  @media (min-width: 1400px) {
+    // xxl - unlimited 1400-unlimited
+    height: 689px;
+  }
+
+}
+
+  .imgtwosectionone {
+    width: 511.66px;
+    height: 332.56px;
+  }
+
+  .section130percent {
+    font-weight: 500;
+    padding: 12.6px;
+
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(255, 114, 114, 0.15)),
+      color-stop(79%, rgba(255, 114, 114, 0))
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(255, 114, 114, 0.15) 0%,
+      rgba(255, 114, 114, 0) 79%
+    );
+    border-radius: 50px;
+    color: #ff4f4f;
+  }
+
+  .textforimage2 {
+    padding: calc(
+      15px + (20 - 15) * ((100vw - 320px) / (1920 - 320))
+    ) !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .psection1 {
+    @media (min-width: 576px) {
+      .d-sm-block {
+        display: block !important;
+      }
+    }
+ 
+  }
+  button:hover {
+    transform: scale(0.9);
+  }
+}

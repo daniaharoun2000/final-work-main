@@ -1,0 +1,127 @@
+#main-home {
+    .category-list img {
+        width: 25px;
+        height: 25px;  
+    }
+    
+ 
+.category-menu ul li .category-list {
+    display: flex;
+    gap: calc(10px + (16 - 10) * ((100vw - 320px) / (1920 - 320)));
+}
+
+
+    .home-contain .home-detail {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .p-top-left {
+       
+        display: flex;
+        
+    }
+    .home-contain {
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+    }
+    .category-menu {
+        background-color: #f8f8f8;
+        padding: calc(12px + (33 - 12) * ((100vw - 320px) / (1920 - 320)));
+        border-radius: 5px;
+    }
+    .category-menu ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .category-menu h3 {
+        margin-bottom: 40px;
+        font-weight: 600;
+        position: relative;
+        display: inline-block;
+    }
+  
+    a {
+        color: var(--theme-color);
+        -webkit-transition: 0.5s ease;
+        transition: 0.5s ease;
+        text-decoration: none;
+    }
+
+   
+    .review-box .review-profile .review-image {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+   
+    .review-box .review-contain p {
+        color: #4a5568;
+        line-height: 27px;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+   
+  
+    .linesection3left {
+      
+        display: flex;
+       
+        flex-wrap: wrap;
+        gap: 23px;
+        border-bottom: 1px dashed rgba(74,85,104,0.5);
+    }
+
+    ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+   
+    .categorytext:hover  {
+        color: #0da487;
+        border-bottom: 1px outset #ececec;
+        
+}
+.trendinglist li {
+ 
+    position: relative;
+    display: -webkit-box;
+}
+
+.trendinglist li .offer-product {
+    width: 100%;
+    height: 100%;
+    display: flex;
+ 
+    align-items: center;
+}
+
+.trendinglist li .offer-product .offer-image img {
+    width: 80px;
+    height: 80px;
+
+    object-fit: contain;
+    
+
+}
+// this is trendinglist li+li:after  styling for multi screen sizes
+.trendinglist li+li:after {
+    content: "";
+    position: absolute;
+    top: -28px;
+    right: 0;
+    border-bottom: 1px dashed rgba(74,85,104,0.3);
+    width: calc(100% - 80px);
+}
+
+}

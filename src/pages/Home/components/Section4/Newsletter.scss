@@ -1,0 +1,27 @@
+#main-home {
+    .newsletterbg{
+        height: 210px;
+        min-height: 60px;
+        background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/vegetable/newsletter/1.jpg);
+        background-size: cover;
+        background-position: center center;
+        border-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        overflow: hidden;
+        position: relative;
+    
+       }
+    .form-control {
+        background-color: #fff;
+    }
+    @media (max-width: 575px) {
+        //xs
+        .textsizenewsletter {
+          font-size: 18px;
+        
+        }
+        }   
+}

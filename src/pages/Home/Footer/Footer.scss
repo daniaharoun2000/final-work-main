@@ -1,0 +1,86 @@
+//Footer scss by Dania Haroun !!!
+
+#main-home {
+  //////////////////////////index.js/////////////////////////////
+
+    .footercover{
+   
+        content: "";
+      
+        background-size: 	385 px 751 px;
+
+        top: 0;
+        left: 0;
+        background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/vegetable/footer-shape.png);
+        background-repeat: no-repeat;
+        z-index: -1;
+    
+}
+a:hover{
+    color: #0da487;
+  }
+  //////////////////////////Section 1/////////////////////////////
+
+.service-contain .service-box {
+    
+    display: flex;
+   
+    align-items: center;
+    position: relative;
+}
+.service-box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+    height: 17px;
+    left: -30px;
+    border: 1px dashed #c1c1c1;
+    border-top-color: rgb(193, 193, 193);
+    border-top-style: dashed;
+    border-top-width: 1px;
+    border-right-color: rgb(193, 193, 193);
+    border-right-style: dashed;
+    border-right-width: 1px;
+    border-bottom-color: rgb(193, 193, 193);
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-left-color: rgb(193, 193, 193);
+    border-left-style: dashed;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+ .main-footer {
+    border-top: 1px dashed #c1c1c1;
+}
+@media (max-width: 767px){
+ .main-footer {
+    border: none;
+    padding-top: 0;
+}}
+  //////////////////////////Section 2/////////////////////////////
+
+.logoo {
+width: 176px;
+}
+
+svgg{
+    width: 18px;
+    height: 18px;
+    stroke: #4a5568;
+}
+.main-footer .footer-contain ul li {
+    display: block;
+ 
+}
+
+
+
+}
