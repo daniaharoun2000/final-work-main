@@ -5,10 +5,10 @@ import Section2 from "./components/Section2/Section2";
 import Section3 from "./components/Section3/Section3";
 import React from "react";
 import ScrollButton from "./components/ScrollButton";
-import Footer from "./Footer/index";
 import Cookies from "./components/Cookies/Cookies";
 import MobileMenu from "./components/MobileNavbar/MobileMenu";
 import Newsletter from "./components/Section4/Newsletter";
+import Footer from '../Home/Footer/index';
 
 ////start of Home  function///
 
@@ -35,7 +35,7 @@ function Home() {
       </section>
       <section>
         {/* Footer section */}
-        <Footer />
+        <Footer/>
       </section>
       <ScrollButton />
       <MobileMenu />

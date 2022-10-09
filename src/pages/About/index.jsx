@@ -1,12 +1,13 @@
 //About Index by Dania Haroun !!!
 //here I import all sections & components in Aboutpage
 import MobileMenu from '../Home/components/MobileNavbar/MobileMenu';
-import Footer from '../Home/Footer';
 import Section1 from './components/Section1/Section1';
 import Section2 from './components/Section2/Section2';
 import Section3 from './components/Section3/Section3';
 import Section4 from './components/Section4/Section4';
 import Section5 from './components/Section5/Section5';
+import Section6 from './components/Section6/Section6';
+import Footer from '../Home/Footer/index';
 
 ////start of About  function///
 
@@ -33,10 +34,11 @@ function About() {
         {/* Section 2 section */}
         <Section5 />
       </section>
-      <section>
-        {/* Footer section */}
-        <Footer />
+      <section className='pt-4'>
+        {/* Section 2 section */}
+        <Section6/>
       </section>
+      <Footer/>
       <MobileMenu />
     </div>
   );

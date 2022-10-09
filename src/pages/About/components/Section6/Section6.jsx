@@ -4,11 +4,11 @@ import { Autoplay, Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Col, Row } from "react-bootstrap";
-import './Section4.scss'; //styling for this section
+import './Section6.scss'; //styling for this section
 
-////start of Section4 function and export it///
+////start of Section5 function and export it///
 
-export default function Section4() {
+export default function Section5() {
   return (
     <>
       <div>
@@ -143,4 +143,4 @@ export default function Section4() {
     </>
   );
 }
-////End of Section4 function ///
+////End of Section5 function ///
