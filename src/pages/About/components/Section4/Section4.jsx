@@ -22,7 +22,7 @@ export default function Section4() {
                                {/* Section4 Swiper Title */}
 
                                <div className="about-us-title text-center mt-5 mb-4">
-                        <h4 className="text-primary">Our Creative Team</h4>
+                        <h4 className="text-themecolor">Our Creative Team</h4>
                         <h2>fastkart team member</h2>
                     </div>
                         {/* swiper */}

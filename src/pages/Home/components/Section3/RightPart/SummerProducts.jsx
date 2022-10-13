@@ -26,7 +26,7 @@ function SummerProducts() {
                 <div className="textforimage2 position-absolute my-1">
                   <div >
                     {/* text */}
-                    <h2 className="fw-normal text-primary">Get Ready To</h2>
+                    <h2 className="fw-normal text-themecolor">Get Ready To</h2>
                     <h3 className="mt-2 mb-3">TAKE ON THE DAY!</h3>
                     <p className="w-75 text-aa">
                       In publishing and graphic design, Lorem ipsum is a
@@ -59,7 +59,7 @@ function SummerProducts() {
                   <div className="textforimage2 position-absolute my-2">
                     <div>
                       <h2 className="fw-normal text-dd">20% Off</h2>
-                      <h3 className="mt-2 mb-2 text-primary">SUMMRY</h3>
+                      <h3 className="mt-2 mb-2 text-themecolor">SUMMRY</h3>
                       <h3 className="fw-normal product-name">Product</h3>
                     </div>
                   </div>

@@ -27,17 +27,17 @@ function Section2() {
                                            
                                         </td>
                                          <td>
-                                            <h5 className="text-primary">Name : </h5>
+                                            <h5 className="text-themecolor">Name : </h5>
                                             <h5>Juice</h5>
                                            
                                         </td>
                                         <td>
-                                            <h5 className="text-primary">Price</h5>
+                                            <h5 className="text-themecolor">Price</h5>
                                             <h5>$35.10 </h5>
                                            
                                         </td>
                                         <td>
-                                            <h5 className="text-primary">Qty</h5>
+                                            <h5 className="text-themecolor">Qty</h5>
                                           
                                                    
                                                         <button type="button" className="btn qty-left-minus" data-type="minus" data-field="">
@@ -51,11 +51,11 @@ function Section2() {
                                                
                                         </td>
                                         <td>
-                                            <h5 className="text-primary">Total</h5>
+                                            <h5 className="text-themecolor">Total</h5>
                                             <h5 className="text-dd">$35.10</h5>
                                         </td>
                                         <td>
-                                            <h5 className="text-primary">Action</h5>
+                                            <h5 className="text-themecolor">Action</h5>
                                             <a href="/">Remove</a>
                                         </td>
                                     </tr>
@@ -80,7 +80,7 @@ function Section2() {
                         <div className="mt-3 cartborder">
                             <Row><Col xs={6}>  <h5 className="text-aa">Total (USD)</h5>
 </Col>
-                                <Col xs={6}>   <h5 className="text-primary justify-content-end d-flex">$132.58</h5>
+                                <Col xs={6}>   <h5 className="text-themecolor justify-content-end d-flex">$132.58</h5>
 </Col></Row>
                          </div>
 

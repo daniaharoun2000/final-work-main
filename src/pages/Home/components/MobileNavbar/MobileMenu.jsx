@@ -12,7 +12,7 @@ import search from '../../images/search.png';
 function MobileMenu() {
   return (
 // this section will appear in md & sm & xs
-    <div className="mobile-menu bg-primary d-lg-none d-block">
+    <div className="mobile-menu bg-themecolor d-lg-none d-block">
       <Container>
                 {/* here we have a Row with one column */}
 

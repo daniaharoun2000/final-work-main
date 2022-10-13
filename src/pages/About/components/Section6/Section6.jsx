@@ -20,7 +20,7 @@ export default function Section6() {
                                {/* Section6 Swiper Title */}
 
                                <div className="about-us-title text-center mt-4 mb-4">
-                        <h4 className="text-primary">Our Blog</h4>
+                        <h4 className="text-themecolor">Our Blog</h4>
                         <h2>Our Latest Blog</h2>
                     </div>
                     {/* here we have 2 divs , one of them will appear according to display size */}
@@ -73,7 +73,7 @@ export default function Section6() {
                               
                                 <a href="blog-detail.html" className="blog-detail mt-3 text-decoration-none  d-block" tabindex="0">
                                     <h6 className="mt-2 text-gray">Soda Brand</h6>
-                                    <h5 className="mt-2 text-primary">Soda 500ml - 20% OFF</h5>
+                                    <h5 className="mt-2 text-themecolor">Soda 500ml - 20% OFF</h5>
                                 </a>
                             </div>
                        
@@ -85,7 +85,7 @@ export default function Section6() {
                                 </div>
                                 <a href="blog-detail.html" className="blog-detail mt-3 text-decoration-none  d-block" tabindex="0">
                                     <h6 className="mt-2 text-gray">Milk Brand</h6>
-                                    <h5 className="mt-2 text-primary">Fresh Milk</h5>
+                                    <h5 className="mt-2 text-themecolor">Fresh Milk</h5>
                                 </a>
                             </div>
                        
@@ -97,7 +97,7 @@ export default function Section6() {
                                 </div>
                                 <a href="blog-detail.html" className="blog-detail mt-3 text-decoration-none  d-block" tabindex="0">
                                     <h6 className="mt-2 text-gray">Farmart</h6>
-                                    <h5 className="mt-2 text-primary">Fresh Meat Saugage</h5>
+                                    <h5 className="mt-2 text-themecolor">Fresh Meat Saugage</h5>
                                 </a>
                             </div>
                        
@@ -109,7 +109,7 @@ export default function Section6() {
                                 </div>
                                 <a href="blog-detail.html" className="blog-detail mt-3 text-decoration-none  d-block" tabindex="0">
                                     <h6 className="mt-2 text-gray">Pepsi Brand</h6>
-                                    <h5 className="mt-2 text-primary">Pepsi 500ml - 20% OFF</h5>
+                                    <h5 className="mt-2 text-themecolor">Pepsi 500ml - 20% OFF</h5>
                                 </a>
                             </div>
                        
@@ -139,7 +139,7 @@ export default function Section6() {
                                 </div>
                                 <a href="blog-detail.html" className="blog-detail mt-3 text-decoration-none  d-block" tabindex="0">
                                     <h6 className="mt-2 text-gray">Farmart</h6>
-                                    <h5 className="mt-2 text-primary">Fresh Meat Saugage</h5>
+                                    <h5 className="mt-2 text-themecolor">Fresh Meat Saugage</h5>
                                 </a>
                             </div>
                        
@@ -151,7 +151,7 @@ export default function Section6() {
                                 </div>
                                 <a href="blog-detail.html" className="blog-detail mt-3 text-decoration-none  d-block" tabindex="0">
                                     <h6 className="mt-2 text-gray">Soda Brand</h6>
-                                    <h5 className="mt-2 text-primary">Soda 500ml - 20% OFF</h5>
+                                    <h5 className="mt-2 text-themecolor">Soda 500ml - 20% OFF</h5>
                                 </a>
                             </div>
                        
@@ -163,7 +163,7 @@ export default function Section6() {
                                 </div>
                                 <a href="blog-detail.html" className="blog-detail mt-3 text-decoration-none  d-block" tabindex="0">
                                     <h6 className="mt-2 text-gray">Milk Brand</h6>
-                                    <h5 className="mt-2 text-primary">Fresh Milk</h5>
+                                    <h5 className="mt-2 text-themecolor">Fresh Milk</h5>
                                 </a>
                             </div>
                        
@@ -175,7 +175,7 @@ export default function Section6() {
                                 </div>
                                 <a href="blog-detail.html" className="blog-detail mt-3 text-decoration-none  d-block" tabindex="0">
                                     <h6 className="mt-2 text-gray">Juice Brand</h6>
-                                    <h5 className="mt-2 text-primary">Fresh Juice -30% OFF</h5>
+                                    <h5 className="mt-2 text-themecolor">Fresh Juice -30% OFF</h5>
                                 </a>
                             </div>
                        

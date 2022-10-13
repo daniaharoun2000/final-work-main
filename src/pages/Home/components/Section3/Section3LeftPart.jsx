@@ -260,7 +260,7 @@ function Section3LeftPart() {
                 <div className="home-detail mt-5 mx-5">
                   <div>
                     <h4 className="text-yellow">Organic</h4>
-                    <h2 className="text-uppercase fw-normal mb-0 text-primary">
+                    <h2 className="text-uppercase fw-normal mb-0 text-themecolor">
                       fresh
                     </h2>
                     <h2 className="text-uppercase fw-normal text-title">
@@ -306,7 +306,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">450 G</span>
-                          <h6 className="price text-primary mb-2">
+                          <h6 className="price text-themecolor mb-2">
                             $ 70.00
                           </h6>
                         </div>
@@ -332,7 +332,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">450 G</span>
-                          <h6 className="price text-primary mb-2  pb-1">
+                          <h6 className="price text-themecolor mb-2  pb-1">
                             $ 40.00
                           </h6>
                         </div>
@@ -358,7 +358,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">200 G</span>
-                          <h6 className="price text-primary mb-2 pb-1">
+                          <h6 className="price text-themecolor mb-2 pb-1">
                             $ 52.00
                           </h6>
                         </div>
@@ -384,7 +384,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">1 KG</span>
-                          <h6 className="price text-primary mb-2 pb-1">
+                          <h6 className="price text-themecolor mb-2 pb-1">
                             $ 80.00
                           </h6>
                         </div>

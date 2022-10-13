@@ -14,7 +14,7 @@ function AddButton() {
             <Button className="bg-cat buttonclass mt-2">
               {/* the first col has an "ADD" text */}
           <Col xl={6} xs={6}>
-            <div className="justify-content-end d-flex"> Add</div>
+            <div className="justify-content-end d-flex" > Add</div>
             </Col>   
                           {/* the 2nd col has a div that contain (+) icon  */}
 
@@ -25,7 +25,7 @@ function AddButton() {
                 width="16"
                 height="16"
                 fill="currentColor"
-                className="bg-badge text-primary plusbutton"
+                className="bg-badge text-themecolor plusbutton"
                 viewBox="0 0 16 16"
               >
                 <path

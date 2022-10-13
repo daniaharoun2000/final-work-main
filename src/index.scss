@@ -1,5 +1,19 @@
-
 //here is a scss for all project
+
+//these is my colors:
+$theme-colors: (
+  "themecolor": #0da487,
+  "dania": #0f0e0e,
+  "badge": #ffffff,
+  "dd": #ff4f4f,
+  "aa": #4a5568,
+  "cat": #f8f8f8,
+  "yellow": #ffb321,
+  "gray": #222,
+  "gg": #e6edf9,
+  "pink": #ffe1e1,
+  "bgray":#ececec
+);
 //import scss files :
 @import "../src/pages/Home/components/MobileNavbar/MobileMenu.scss";
 @import "../src/components/Footer/Footer.scss";
@@ -12,20 +26,7 @@
 @import "./pages/Home/components/Section4/Newsletter.scss";
 
 
-//these is my colors:
-$theme-colors: (
-  "primary": #0da487,
-  "dania": #0f0e0e,
-  "badge": #ffffff,
-  "dd": #ff4f4f,
-  "aa": #4a5568,
-  "cat": #f8f8f8,
-  "yellow": #ffb321,
-  "gray": #222,
-  "gg": #e6edf9,
-  "pink": #ffe1e1,
-  "bgray":#ececec
-);
+
 
 @import "~bootstrap/scss/bootstrap";
 //root foe index.js

@@ -7,7 +7,7 @@ import {Row,Col,Carousel,NavDropdown} from "react-bootstrap";
 
 function Section1() {
   return (
-    <div className="bg-primary">
+    <div className="bg-themecolor">
       <Container>
         <Row className="py-2"> 
         {/* The top header is divided into three columns */}

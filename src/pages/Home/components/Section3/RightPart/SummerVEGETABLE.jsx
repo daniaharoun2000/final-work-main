@@ -18,7 +18,7 @@ function SummerVEGETABLE() {
                             <div className="textforimage2 mt-1 align-items-center justify-content-center d-flex">
                                 <div >
                                   {/* text */}
-                                    <h6 className="ls-expanded text-primary mb-1 align-items-center justify-content-center d-flex">SUMMER</h6>
+                                    <h6 className="ls-expanded text-themecolor mb-1 align-items-center justify-content-center d-flex">SUMMER</h6>
                                     <h2 className="banner-title">VEGETABLE</h2>
                                     <h5 className="lh-sm mx-auto mt-1  align-items-center justify-content-center d-flex text-aa">Save up to 5% OFF</h5>
                                   {/* button */}

@@ -63,7 +63,7 @@ function LocationBar() {
             <circle cx="12" cy="10" r="3"></circle>
           </svg>
         </span>
-        <span className="text-primary px-2 align-items-center">
+        <span className="text-themecolor px-2 align-items-center">
           Your Location
         </span>
         <span>
@@ -124,7 +124,7 @@ function LocationBar() {
                   className="d-flex justify-content-between align-items-start"
                 >
                   Alabama
-                  <Badge bg="primary" pill>
+                  <Badge bg="themecolor" pill>
                     Min: $130
                   </Badge>
                 </ListGroup.Item>
@@ -133,7 +133,7 @@ function LocationBar() {
                   className="d-flex justify-content-between align-items-start"
                 >
                   Arizona 
-                  <Badge bg="primary" pill>
+                  <Badge bg="themecolor" pill>
                     Min: $150
                   </Badge>
                 </ListGroup.Item>
@@ -142,7 +142,7 @@ function LocationBar() {
                   className="d-flex justify-content-between align-items-start"
                 >
                   California
-                  <Badge bg="primary" pill>
+                  <Badge bg="themecolor" pill>
                     Min: $110
                   </Badge>
                 </ListGroup.Item>
@@ -151,7 +151,7 @@ function LocationBar() {
                   className="d-flex justify-content-between align-items-start"
                 >
                   Colorado
-                  <Badge bg="primary" pill>
+                  <Badge bg="themecolor" pill>
                     Min: $140
                   </Badge>
                 </ListGroup.Item>
@@ -160,7 +160,7 @@ function LocationBar() {
                   className="d-flex justify-content-between align-items-start"
                 >
                   Florida
-                  <Badge bg="primary" pill>
+                  <Badge bg="themecolor" pill>
                     Min: $160
                   </Badge>
                 </ListGroup.Item>

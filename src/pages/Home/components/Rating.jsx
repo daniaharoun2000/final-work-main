@@ -101,7 +101,7 @@ export default function Rating() {
             {/* the 2nd col has an (In Stock) text*/}
 
   <Col xxl={6}   md={6} xs={12} className="p-0">
-  <h6 className="text-primary m-0 mb-0 p-0">
+  <h6 className="text-themecolor m-0 mb-0 p-0">
                 In Stock
               </h6></Col></Row>
 </div>

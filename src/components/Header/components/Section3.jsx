@@ -25,7 +25,6 @@ function Section3() {
             <Col xl={2} md={3}><div className="d-flex justify-content-start">
               <Dropdown>
                 <Dropdown.Toggle
-                  variant="primary"
                   id="dropdown-one"
                   className="AllCategories align-items-center justify-content-center d-flex text-badge"
                 >

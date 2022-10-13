@@ -20,7 +20,7 @@ export default function Section3() {
                 <Col xl={12}>
     {/*Section3 Title */}
        <div className="about-us-title text-center mt-5 mb-4">
-                        <h4 className="text-primary">What We Do</h4>
+                        <h4 className="text-themecolor">What We Do</h4>
                         <h2>We are Trusted by Clients</h2>
                     </div>
 

@@ -93,7 +93,7 @@ export default function FoodCupboardSlider() {
                               </a>
 
                               <h5 className="sold text-content">
-                                <span className="text-primary price">
+                                <span className="text-themecolor price">
                                   $26.69
                                 </span>
                                 <del className="dell">28.56</del>
@@ -120,7 +120,7 @@ export default function FoodCupboardSlider() {
                               </a>
 
                               <h5 className="sold text-content">
-                                <span className="text-primary price">
+                                <span className="text-themecolor price">
                                   $26.69
                                 </span>
                                 <del className="dell">28.56</del>
@@ -149,7 +149,7 @@ export default function FoodCupboardSlider() {
                               </a>
 
                               <h5 className="sold text-content">
-                                <span className="text-primary price">
+                                <span className="text-themecolor price">
                                   $26.69
                                 </span>
                                 <del className="dell">28.56</del>
@@ -176,7 +176,7 @@ export default function FoodCupboardSlider() {
                               </a>
 
                               <h5 className="sold text-content">
-                                <span className="text-primary price">
+                                <span className="text-themecolor price">
                                   $26.69
                                 </span>
                                 <del className="dell">28.56</del>
@@ -203,7 +203,7 @@ export default function FoodCupboardSlider() {
                               </a>
 
                               <h5 className="sold text-content">
-                                <span className="text-primary price">
+                                <span className="text-themecolor price">
                                   $26.69
                                 </span>
                                 <del className="dell">28.56</del>

@@ -46,7 +46,7 @@ function Cookies() {
               {/*  OK  Button*/}
               {/* on click on (OK Button) the setshowcookiesbox will equal false so the box will be hidden */}
               <Button
-                className="cookiesbutton align-items-center justify-content-center d-flex bg-primary text-badge"
+                className="cookiesbutton align-items-center justify-content-center d-flex bg-themecolor text-badge"
                 onClick={() => setshowcookiesbox(false)}
               >
                 OK

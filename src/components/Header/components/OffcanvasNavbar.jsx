@@ -26,7 +26,7 @@ function OffcanvasNavbar() {
 
       <Offcanvas show={show} onHide={handleClose} className="p-3 w-50">
         <Offcanvas.Header closeButton className='shadow-sm zindex-fixed-nav'>
-          <Offcanvas.Title><h5 className='text-primary'>Menu</h5></Offcanvas.Title>
+          <Offcanvas.Title><h5 className='text-themecolor'>Menu</h5></Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
      {/* in the Offcanvas body , we have list and every li element is a nav item */}

@@ -6,7 +6,7 @@ import svgg from'../images/topIcon.svg'; //top arrow image
 export default function ScrollButton() {
   return (
     <div>
-      <button className='bg-primary scroolbutton'
+      <button className='bg-themecolor scroolbutton'
         onClick={() => {
           //  scroll to top on page load
     //horizontally =0 ,vertically=0 ,behavior=smooth

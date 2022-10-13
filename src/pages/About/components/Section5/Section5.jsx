@@ -21,7 +21,7 @@ export default function Section5() {
                 <Col xl={12} className="mb-5">
     {/*Section5 Title */}
        <div className="about-us-title text-center mt-5 mb-4">
-                        <h4 className="text-primary">What We Do</h4>
+                        <h4 className="text-themecolor">What We Do</h4>
                         <h2>We are Trusted by Clients</h2>
                     </div>
                   <div>
@@ -86,7 +86,7 @@ export default function Section5() {
                                     </div>
 
                                     <div className="reviewer-name mb-3">
-                                        <h4 className="text-primary">Eileen R. Chu</h4>
+                                        <h4 className="text-themecolor">Eileen R. Chu</h4>
                                         <h6 className="mb-3">Marketing Director</h6>
                                     </div>
                                     </div>
@@ -120,7 +120,7 @@ export default function Section5() {
                                     </div>
 
                                     <div className="reviewer-name mb-3">
-                                        <h4 className="text-primary">Betty J. Turner</h4>
+                                        <h4 className="text-themecolor">Betty J. Turner</h4>
                                         <h6>CTO, Company</h6>
                                     </div>
                                     </div>
@@ -154,7 +154,7 @@ export default function Section5() {
                                     </div>
 
                                     <div className="reviewer-name mb-3">
-                                        <h4 className="text-primary">Alfredo S. Rocha</h4>
+                                        <h4 className="text-themecolor">Alfredo S. Rocha</h4>
                                         <h6>Project Manager</h6>
                                     </div>
                                     </div>
@@ -189,7 +189,7 @@ export default function Section5() {
                                     </div>
 
                                     <div className="reviewer-name mb-3">
-                                        <h4 className="text-primary">Donald C. Spurr</h4>
+                                        <h4 className="text-themecolor">Donald C. Spurr</h4>
                                         <h6>Sale Agents</h6>
                                     </div>
                                     </div>
@@ -223,7 +223,7 @@ export default function Section5() {
                                     </div>
 
                                     <div className="reviewer-name mb-3">
-                                        <h4 className="text-primary">Alfredo S. Rocha</h4>
+                                        <h4 className="text-themecolor">Alfredo S. Rocha</h4>
                                         <h6>Project Manager</h6>
                                     </div>
                                     </div>
@@ -257,7 +257,7 @@ export default function Section5() {
                                     </div>
 
                                     <div className="reviewer-name mb-3">
-                                        <h4 className="text-primary">Alfredo S. Rocha</h4>
+                                        <h4 className="text-themecolor">Alfredo S. Rocha</h4>
                                         <h6>Project Manager</h6>
                                     </div>
                                     </div>
@@ -291,7 +291,7 @@ export default function Section5() {
                                     </div>
 
                                     <div className="reviewer-name mb-3">
-                                        <h4 className="text-primary">Betty J. Turner</h4>
+                                        <h4 className="text-themecolor">Betty J. Turner</h4>
                                         <h6>CTO, Company</h6>
                                     </div>
                                     </div>

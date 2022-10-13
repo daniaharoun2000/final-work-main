@@ -88,7 +88,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 
@@ -113,7 +113,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 
@@ -139,7 +139,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 
@@ -169,7 +169,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 
@@ -194,7 +194,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 
@@ -226,7 +226,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 
@@ -251,7 +251,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 
@@ -276,7 +276,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 
@@ -302,7 +302,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 
@@ -328,7 +328,7 @@ function TopSaveToday() {
             </a>
 
             <h5 className="sold text-content">
-              <span className="text-primary price">$26.69</span>
+              <span className="text-themecolor price">$26.69</span>
               <del className="dell">28.56</del>
             </h5>
 

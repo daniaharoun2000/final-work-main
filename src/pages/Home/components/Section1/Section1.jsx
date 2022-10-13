@@ -22,7 +22,7 @@ function Section1() {
                   </h6>
                   <h1 className="text-uppercase homecontain mb-2">
                     Stay home &amp; delivered your
-                    <span className="text-primary ms-1">Daily Needs</span>
+                    <span className="text-themecolor ms-1">Daily Needs</span>
                   </h1>
                   <p className="w-50 d-none d-sm-block text-aa psection1">
                     Vegetables contain many vitamins and minerals that are good
@@ -53,7 +53,7 @@ function Section1() {
                       <h2 className="mt-4 text-dd">
                         45% <span className="text-dania">OFF</span>
                       </h2>
-                      <h3 className="text-primary">Nut Collection</h3>
+                      <h3 className="text-themecolor">Nut Collection</h3>
                       <p className="text-aa psection1">
                         We deliver organic vegetables &amp; fruits
                       </p>
@@ -74,7 +74,7 @@ function Section1() {
                   />
                   <div className="textforimage2 position-absolute">
                     <div>
-                      <h3 className="mt-4 text-primary fw-bold">
+                      <h3 className="mt-4 text-themecolor fw-bold">
                         Healthy Food
                       </h3>
                       <h4 className="text-dd">Organic Market</h4>

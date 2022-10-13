@@ -23,7 +23,7 @@ function Fiftypercentoffer() {
               <div className="p-4">
                 <div>
                   <h3>50% offer</h3>
-                  <h4 className="fw-normal mb-1 text-primary">
+                  <h4 className="fw-normal mb-1 text-themecolor">
                     Testy Mushrooms
                   </h4>
                   <button className="btn mt-xxl-4 mb-1 text-overflow-1 bg-dd text-white">
@@ -49,7 +49,7 @@ function Fiftypercentoffer() {
               <div className="p-4">
                 <div>
                   <h3>50% offer</h3>
-                  <h4 className="fw-normal mb-1 text-primary">
+                  <h4 className="fw-normal mb-1 text-themecolor">
                     Testy Mushrooms
                   </h4>
                   <button className="btn mt-xxl-4 mb-1 text-overflow-1 bg-dd text-white">
