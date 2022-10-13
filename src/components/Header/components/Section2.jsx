@@ -54,7 +54,7 @@ if (window.scrollY >= 43) { //if the pixels a document has scrolled from the upp
                   <img
                     src={logo}
                     alt="logo"
-                    className="align-items-center logoimagesection2header w-100"
+                    className="align-items-center w-100"
                   />
                 </Col>
                    {/* the 3rd column -> LocationBar component  */}
@@ -194,8 +194,10 @@ if (window.scrollY >= 43) { //if the pixels a document has scrolled from the upp
                      {/* this column has a li element that has a cart icon */}
 
                   <Col xxl={1} xl={1}>
-                    <li className="m-0"><a href="/">
-                      <svg
+                    <li className="m-0 position-relative" >
+                      <a href="/cart">
+                   <span className="cartshoppingicon">
+                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
@@ -210,8 +212,12 @@ if (window.scrollY >= 43) { //if the pixels a document has scrolled from the upp
                         <circle cx="9" cy="21" r="1"></circle>
                         <circle cx="20" cy="21" r="1"></circle>
                         <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-                      </svg></a>
+                      </svg></span>
+                      <span className="cartshoppingtext text-badge">{0}</span>
+                      </a>
                     </li>
+                     
+                 
                   </Col>
                   {/* li elemnt that has a simple span -> |  */}
                   <li className="m-0 px-3">

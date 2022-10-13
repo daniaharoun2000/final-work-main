@@ -1,123 +1,26 @@
 #main-about {
-
-    .slider__controls {
-        position: relative;
-        z-index: 12;
-    
-      & .slider__pagination {
-          text-align: center;
-          margin-top: 1px;
-    
-          & .swiper-pagination-bullet {
-          width: 13px;
-          height: 10px;
-          display: inline-block;
-          background: #0da487;
-          opacity: .2;
-          margin: 0 5px;
-          -webkit-border-radius: 20px;
-                  border-radius: 20px;
-          -webkit-transition: opacity .5s, background-color .5s, width .5s;
-          -o-transition: opacity .5s, background-color .5s, width .5s;
-          transition: opacity .5s, background-color .5s, width .5s;
-          -webkit-transition-delay: .5s, .5s, 0s;
-               -o-transition-delay: .5s, .5s, 0s;
-                  transition-delay: .5s, .5s, 0s;
-          }        
-      }
-        
-      & .swiper-pagination-clickable .swiper-pagination-bullet {
-          cursor: pointer;
-      }
-    
-      & .slider__pagination .swiper-pagination-bullet-active {
-          opacity: 1;
-          background:#0da487;
-          width: 50px;
-          -webkit-transition-delay: 0s;
-               -o-transition-delay: 0s;
-                  transition-delay: 0s;
-      }
-    
-    
-    
-    
+  
+    .aboutimg:hover{
+        transform: scale(1.08); 
     
     }
-    
-
-    .trustedimg{
-        width: 54px;
-        height: 70px;
-        -o-object-fit: contain;
-        object-fit: contain;
-    }
-     .clint-contain h2 {
-        position: absolute;
-        top: calc(14px + (24 - 14) * ((100vw - 320px) / (1920 - 320)));
-        right: calc(24px + (34 - 24) * ((100vw - 320px) / (1920 - 320)));
-        color: #4a5568;
-        opacity: .05;
-        font-size: calc(52px + (70 - 52) * ((100vw - 320px) / (1920 - 320)));
-        font-weight: 800;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-    ///card name size according to screen size
-     .cardname{
-        //xs
-        line-height: 22px;
-            height: 25px;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            display: -webkit-box;
-            overflow: hidden;
-        @media (min-width: 576px) {
-    //sm 
-     
-            line-height: 22px;
-            height: 25px;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            display: -webkit-box;
-            overflow: hidden;
-        }
-        @media (min-width: 768px) {
-    //md & lg & xl & xxl
-           
-                line-height: 22px;
-                height: 45px;
-                -webkit-line-clamp: 2;
-                -webkit-box-orient: vertical;
-                display: -webkit-box;
-                overflow: hidden;
-            }
+      .reviewer-profile {
             
-        }
-     
-    
-         .price {
-            margin-top: 6px;
-            font-weight: 600;
-            margin-bottom: -2px;
-        }
-       
-        .product-list li .offer-product .offer-image img {
-            width: 80px;
-            height: 80px;
-        
-            object-fit: contain;
-            
-    
-        }
-   
-        .product-list li .offer-product {
-            width: 100%;
-            height: 100%;
             display: flex;
-         
+          gap: calc(12px + (19 - 12) * ((100vw - 320px) / (1920 - 320)));
             align-items: center;
         }
-       
-       
+        //img of every col
+        .trustedimg{
+            width: 70px;
+            height: 70px;
+            -o-object-fit: contain;
+            object-fit: contain;
+            border-radius: 7%;
         }
+        // //card height
+        // .Clients-list{
+        //     height: 330px;
+        // }
+       
+            }

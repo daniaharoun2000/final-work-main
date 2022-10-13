@@ -1,4 +1,4 @@
-//Our Best Seller Section from Right Part on Home Page by Dania Haroun !!!
+//Section4 Section from About Page by Dania Haroun !!!
 //  Swiper (slider)
 import { Autoplay, Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,20 +6,21 @@ import "swiper/css";
 import { Col, Row } from "react-bootstrap";
 import { Container } from "../../../../components";
 import './Section3.scss'; //styling for this section
+import React, { Component }  from 'react';
 
 ////start of Section3 function and export it///
 
 export default function Section3() {
   return (
+    //the background is cat color
     < div className="bg-cat">
      <Container>
             <div>
                {/* there is one row with one col */}
               <Row className="pb-5">
                 <Col xl={12}>
-                                                                   {/*Our Best Seller Title */}
-
-                                                                   <div className="about-us-title text-center mt-5 mb-4">
+    {/*Section3 Title */}
+       <div className="about-us-title text-center mt-5 mb-4">
                         <h4 className="text-primary">What We Do</h4>
                         <h2>We are Trusted by Clients</h2>
                     </div>
@@ -29,7 +30,6 @@ export default function Section3() {
                   <div className="d-lg-none d-xxl-none d-xl-block d-md-block d-xs-block">
                     {/* swiper */}
                     <Swiper
-                    
                       spaceBetween={10}
                        slidesPerView={3}
                       scrollbar={{ draggable: true }}
@@ -61,15 +61,15 @@ export default function Section3() {
                         <div className="slick-slide slick-current slick-active">
                         <ul className="product-list p-3 border-light rounded-3 bg-badge">
                                 {/* in every li elemnt there is an img & text */}
-                                <li className="mb-4 mt-2">
-                                <div className="clint-contain">
+                                <li className="me-2 ms-2">
+                                <div className="clint-contain position-relative">
                                 <div className="client-icon">
-                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/work.svg" className="trustedimg" alt=""/>
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/work.svg" className="trustedimg aboutimg" alt=""/>
                                 </div>
                                 <h2>10</h2>
                                 <h4>Business Years</h4>
-                                <p>A coffee shop is a small business that sells coffee, pastries, and other morning
-                                    goods. There are many different types of coffee shops around the world.</p>
+                                <p className="text-aa">A coffee shop is a small business that sells coffee, pastries, and other morning
+                                    goods.</p>
                             </div>
                                 </li>
 
@@ -86,15 +86,15 @@ export default function Section3() {
                         >
                                               <ul className="product-list p-3 border-light rounded-3 bg-badge">
                                 {/* in every li elemnt there is an img & text */}
-                                <li className="mb-4 mt-2">
-                                <div className="clint-contain">
+                                <li className="me-2 ms-2">
+                                <div className="clint-contain position-relative">
                                 <div className="client-icon">
-                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/buy.svg" className="trustedimg" alt=""/>
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/buy.svg" className="trustedimg aboutimg" alt=""/>
                                 </div>
-                                <h2>80 k +</h2>
+                                <h2>80k</h2>
                                 <h4>Products Sales</h4>
-                                <p>Some coffee shops have a seating area, while some just have a spot to order and then
-                                    go somewhere else to sit down. The coffee shop that I am going to.</p>
+                                <p className="text-aa">Some coffee shops have a seating area, while some just have a spot to order and then
+                                    go somewhere else to sit down.</p>
                             </div>
                                 </li>
 
@@ -111,14 +111,14 @@ export default function Section3() {
                         >
                                                 <ul className="product-list p-3 border-light rounded-3 bg-badge">
                                 {/* in every li elemnt there is an img & text */}
-                                <li className="mb-4 mt-2">
-                                <div className="clint-contain">
+                                <li className="me-2 ms-2">
+                                <div className="clint-contain position-relative">
                                 <div className="client-icon">
-                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/user.svg" className="trustedimg" alt=""/>
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/user.svg" className="trustedimg aboutimg" alt=""/>
                                 </div>
-                                <h2>90 %</h2>
+                                <h2>90%</h2>
                                 <h4>Happy Customers</h4>
-                                <p>My goal for this coffee shop is to be able to get a coffee and get on with my day.
+                                <p className="text-aa">My goal for this coffee shop is to be able to get a coffee and get on with my day.
                                     It's a Thursday morning and I am rushing between meetings.</p>
                             </div>
                                 </li>
@@ -148,18 +148,18 @@ export default function Section3() {
                           <Row className="row-cols-xxl-3 row-cols-xl-2 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
                             {/* here there is 3 cols */}
                             <Col >
-                            {/* in every col there is ul and li elemnts */}
+                            {/* in every col there is ul and one li element */}
                               <ul className="product-list p-3 border-light rounded-3 bg-badge">
-                                {/* in every li elemnt there is an img & text */}
-                                <li className="mb-4 mt-2">
-                                <div className="clint-contain">
+                                {/* in an li elemnt there is an img & text */}
+                                <li className="me-2 ms-2">
+                                <div className="clint-contain position-relative">
                                 <div className="client-icon">
-                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/buy.svg" className="trustedimg" alt=""/>
+                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/buy.svg" className="trustedimg aboutimg" alt=""/>
                                 </div>
-                                <h2>80 k +</h2>
-                                <h4>Products Sales</h4>
-                                <p>Some coffee shops have a seating area, while some just have a spot to order and then
-                                    go somewhere else to sit down. The coffee shop that I am going to.</p>
+                                <h2>80k</h2>
+                                <h4 className="pt-0">Products Sales</h4>
+                                <p className="text-aa">Some coffee shops have a seating area, while some just have a spot to order and then
+                                    go somewhere else to sit down.</p>
                             </div>
                                 </li>
 
@@ -167,18 +167,18 @@ export default function Section3() {
                               </ul>
                             </Col>
                             <Col>
-                                                        {/* in every col there is ul and li elemnts */}
+                                                        {/* in every col there is ul and one li element */}
 
-                                                        <ul className="product-list p-3 border-light rounded-3 bg-badge">
-                                {/* in every li elemnt there is an img & text */}
-                                <li className="mb-4 mt-2">
-                                <div className="clint-contain">
+     <ul className="product-list p-3 border-light rounded-3 bg-badge">
+                                {/* in an li elemnt there is an img & text */}
+                                <li className="me-2 ms-2">
+                                <div className="clint-contain position-relative">
                                 <div className="client-icon">
-                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/work.svg" className="trustedimg" alt=""/>
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/work.svg" className="trustedimg aboutimg" alt=""/>
                                 </div>
                                 <h2>10</h2>
                                 <h4>Business Years</h4>
-                                <p>A coffee shop is a small business that sells coffee, pastries, and other morning
+                                <p className="text-aa">A coffee shop is a small business that sells coffee, pastries, and other morning
                                     goods. There are many different types of coffee shops around the world.</p>
                             </div>
                                 </li>
@@ -187,18 +187,18 @@ export default function Section3() {
                               </ul>
                             </Col>
                             <Col>
-                                                        {/* in every col there is ul and li elemnts */}
+                                                        {/* in every col there is ul and one li element */}
 
-                                                        <ul className="product-list p-3 border-light rounded-3 bg-badge">
-                                {/* in every li elemnt there is an img & text */}
-                                <li className="mb-4 mt-2">
-                                <div className="clint-contain">
+         <ul className="product-list p-3 border-light rounded-3 bg-badge">
+                                {/* in an li elemnt there is an img & text */}
+                                <li className="me-2 ms-2">
+                                <div className="clint-contain position-relative">
                                 <div className="client-icon">
-                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/user.svg" className="trustedimg" alt=""/>
+                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/user.svg" className="trustedimg aboutimg" alt=""/>
                                 </div>
-                                <h2>90 %</h2>
+                                <h2>90%</h2>
                                 <h4>Happy Customers</h4>
-                                <p>My goal for this coffee shop is to be able to get a coffee and get on with my day.
+                                <p className="text-aa">My goal for this coffee shop is to be able to get a coffee and get on with my day.
                                     It's a Thursday morning and I am rushing between meetings.</p>
                             </div>
                                 </li>

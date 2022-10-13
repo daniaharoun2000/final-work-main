@@ -1,0 +1,19 @@
+#main-cart {
+
+ .cartborder{
+    border-bottom: 1px solid #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(236, 236, 236);
+ }
+.returnarrowsize{
+    width: 20px;
+}
+  
+     td {
+        padding: calc(16px + (22 - 16) * ((100vw - 320px) / (1920 - 320))) 16px;
+        min-width: calc(135px + (170 - 135) * ((100vw - 320px) / (1920 - 320)));
+    }
+    
+  
+}

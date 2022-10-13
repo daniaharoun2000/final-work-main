@@ -1,38 +1,36 @@
-//Section1 Section from About Page by Dania Haroun !!!
-//this section has a page sequence (home->about)
+//Section1 Section from cart Page by Dania Haroun !!!
+//this section has a page sequence (home->cart)
 import { Col, Row } from "react-bootstrap";
-import homeiconforaboutsection from '../../images/homeiconforaboutsection.svg';//home icon svg 
+import React, { Component }  from 'react';
+import homeiconforcartsection from '../../images/homeiconforcartsection.svg';//home icon svg 
 import Container from "../../../../components/Container";//my Container
 import './Section1.scss'; //styling for this section
-import React, { Component }  from 'react';
-
 ////start of Section1 function///
 function Section1() {
   return (
-    // aboutrowhover for hover the div
-    <div className="aboutrowhover">
+    <div className="bg-cat">
       <Container>
         <div className="py-4">
             {/* here is 1 row with 2 cols */}
         <Row>        
-                {/* first col has an about title */}
+                {/* first col has an cart title */}
              <Col xl={6} md={6}>
                     <div className="textabout">
-                       About Us
+                       Cart
                         </div>
               </Col>
-                              {/* 2nd col has  a page sequence (home->about) */}
+                              {/* 2nd col has  a page sequence (home->cart) */}
 
 <Col xl={6} md={6}>
 {/* The <ol> tag defines an ordered list. An ordered list can be numerical or alphabetical. */}
                             <ol className="olabout p-0 align-items-center d-flex">
                                 <li>
                                     <a href="/">
-<img src={homeiconforaboutsection} className="homeicon ms-2" alt=""/>         
+<img src={homeiconforcartsection} className="homeicon ms-2" alt=""/>         
                            </a>
                                 </li>
                                 <li><div>{'->'}</div></li>
-                                <li ><a href="/about" className="text-decoration-none text-dania ms-2">About Us</a></li>
+                                <li ><a href="/cart" className="text-decoration-none text-dania ms-2">Cart</a></li>
                             </ol>
                             </Col>
                   

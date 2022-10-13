@@ -459,7 +459,7 @@ function Section3() {
                             >
                               404
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="/">
+                            <NavDropdown.Item href="/about">
                               About Us
                             </NavDropdown.Item>
                             <NavDropdown.Item href="/">

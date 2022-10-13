@@ -1,52 +1,59 @@
-//Section 1 from About Page by Dania Haroun !!!
+//Section2 Section from About Page by Dania Haroun !!!
 //this section has a page sequence (home->about)
 import { Col, Row } from "react-bootstrap";
 import Container from "../../../../components/Container";//my Container
 import './Section2.scss'; //styling for this section
+import React, { Component }  from 'react';
+
 ////start of Section2 function///
 function Section2() {
   return (
-    // aboutrowhover for hover the div
     <div>
       <Container>
-        <div>
-       
-            <div className="row gx-xl-5 gy-xl-0 g-3 ratio_148 fresh-vegetable-section section-lg-space">
-                <div className="col-xl-6 col-12">
-                    <div className="row">
-                        <div className="col-6">
+        {/* here is 1 Row with 2 cols */}
+            <Row className="row gx-xl-5 gy-xl-0 g-3">
+                {/* first col has one row with 2 cols with 2 imgs */}
+                <Col xl={6} xs={12}>
+                  
+                    <Row>
+                        <Col xl={6} lg={6} xs={6}>
+                            {/* first img */}
                             <div className="fresh-image-2">
-                                <div className="bg-size imgonebg">
+                                <div className="bg-size">
                                 </div>
                             </div>
-                        </div>
+                        </Col>
 
-                        <div className="col-6">
+                        <Col xl={6} lg={6} xs={6}>
+                             {/* 2nd img */}
                             <div className="fresh-image">
-                                <div className="bg-size imgtwobg">
+                                <div className="bg-size">
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-xl-6 col-12">
+                        </Col>
+                    </Row>
+                </Col>
+                 {/* 2nd col , here is some text */}
+                <Col xl={6} xs={12}>
                     <div className="fresh-contain p-center-left">
                         <div>
+                            {/* about title */}
                             <div className="review-title">
                                 <h5>About Us</h5>
                                 <h2>We make Organic Food In Market</h2>
                             </div>
 
                             <div className="delivery-list">
-                                <p className="text-gray">Just a few seconds to measure your body temperature. Up to 5
+                                <p className="text-aa">Just a few seconds to measure your body temperature. Up to 5
                                     users! The battery lasts up to 2 years. There are many variations of passages of
                                     Lorem Ipsum available.We started in 2019 and haven't stopped smashing it since. A
                                     global brand that doesn't sleep, we are 24/7 and always bringing something new with
                                     over 100 new products dropping on the monhtly, bringing you the latest looks for
                                     less.</p>
 
-                                <ul className="delivery-box">
+{/* list */}
+                                <ul className="delivery-box p-0">
+                                    {/* every li element has an img with text */}
                                     <li>
                                         <div className="delivery-box">
                                             <div className="delivery-icon">
@@ -54,7 +61,7 @@ function Section2() {
                                             </div>
 
                                             <div className="delivery-detail">
-                                                <h5 className="text">Free delivery for all orders</h5>
+                                                <h6>Free delivery for all orders</h6>
                                             </div>
                                         </div>
                                     </li>
@@ -66,7 +73,7 @@ function Section2() {
                                             </div>
 
                                             <div className="delivery-detail">
-                                                <h5 className="text">Only fresh foods</h5>
+                                                <h6>Only fresh foods</h6>
                                             </div>
                                         </div>
                                     </li>
@@ -78,7 +85,7 @@ function Section2() {
                                             </div>
 
                                             <div className="delivery-detail">
-                                                <h5 className="text">Free delivery for all orders</h5>
+                                                <h6>Free delivery for all orders</h6>
                                             </div>
                                         </div>
                                     </li>
@@ -90,7 +97,7 @@ function Section2() {
                                             </div>
 
                                             <div className="delivery-detail">
-                                                <h5 className="text">Only fresh foods</h5>
+                                                <h6>Only fresh foods</h6>
                                             </div>
                                         </div>
                                     </li>
@@ -98,13 +105,8 @@ function Section2() {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
- 
-          
-      
-   
+                </Col>
+        </Row>
       </Container>
     </div>
   );

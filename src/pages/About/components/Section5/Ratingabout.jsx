@@ -2,6 +2,7 @@
 // Rating will be used in Top Save Today & Food Cupboard sections
 import { Col,Row } from 'react-bootstrap';
 import './Ratingabout.scss';
+import React, { Component }  from 'react';
 
 ////start of Rating function and export it///
 
@@ -11,7 +12,7 @@ export default function Ratingabout() {
            
                       {/* here we have a row with 2 columns */}
 
-              <Row  className="d-flex justify-content-center align-items-center">
+              <Row >
                           {/* the first col contain 5 stars icons (svg) */}
                           <Col xxl={12}   md={12} xs={12} className="p-0">
                 

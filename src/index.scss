@@ -2,7 +2,7 @@
 //here is a scss for all project
 //import scss files :
 @import "../src/pages/Home/components/MobileNavbar/MobileMenu.scss";
-@import "pages/Home/Footer/Footer.scss";
+@import "../src/components/Footer/Footer.scss";
 @import "./pages/Home/components/Section1/Section1.scss";
 @import "./pages/Home/components/Section2/Section2.scss";
 @import "./pages/Home/components/Section3/Section3LeftPart.scss";
@@ -24,6 +24,7 @@ $theme-colors: (
   "gray": #222,
   "gg": #e6edf9,
   "pink": #ffe1e1,
+  "bgray":#ececec
 );
 
 @import "~bootstrap/scss/bootstrap";

@@ -2,8 +2,10 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home"; //the home page that contains every thing in this project
 import About from './pages/About';
 import "./index.scss"; //the main scss for all project
-
+import Cart from './pages/Cart/index';
 import { Layout } from "./components"; //layout that has a header sections
+import React, { Component }  from 'react';
+
 ////start of App  function///
 
 function App() {
@@ -60,12 +62,13 @@ function App() {
 
   return (
     // {/*  bg-effect has a background img , you can see it in index.scss */}
-    <div className="bg-effect">
+    <div>
       {/* Layout that has a header sections */}
       <Layout>
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
+          <Route path="/cart" exact element={<Cart />} />
 
         </Routes>
       </Layout>

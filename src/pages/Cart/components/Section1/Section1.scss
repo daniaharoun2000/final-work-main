@@ -1,0 +1,39 @@
+#main-cart {
+
+    .homeicon{
+    width: 30px;
+}
+
+li {
+    display: inline-block;
+}
+
+
+  .olabout  {
+
+  text-align: end;
+  justify-content: end;
+
+@media (max-width: 575px)
+{
+    text-align: center;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+  }
+  .textabout  {
+
+    text-align: start;
+    justify-content: start;
+    font-size: 20px;
+    font-weight: 700;
+
+  @media (max-width: 575px)
+  {
+    font-size: 18px;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 2%;
+  }
+    }
+}

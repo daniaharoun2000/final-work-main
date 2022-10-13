@@ -1,5 +1,5 @@
 #main-about {
-
+    //////////////////////////////////Start of Slider scss
     .slider__controls {
         position: relative;
         z-index: 12;
@@ -38,24 +38,22 @@
                -o-transition-delay: 0s;
                   transition-delay: 0s;
       }
-    
-    
-    
-    
-    
+   
     }
-    
+    //////////////////////////////////End of Slider scss
 
+    //img of every col
     .trustedimg{
         width: 54px;
         height: 70px;
         -o-object-fit: contain;
         object-fit: contain;
     }
+  //h2 text opacity & color
      .clint-contain h2 {
         position: absolute;
-        top: calc(14px + (24 - 14) * ((100vw - 320px) / (1920 - 320)));
-        right: calc(24px + (34 - 24) * ((100vw - 320px) / (1920 - 320)));
+        top: calc(14px + (1 - 14) * ((100vw - 320px) / (1920 - 320)));
+        right: calc(24px + (2 - 24) * ((100vw - 320px) / (1920 - 320)));
         color: #4a5568;
         opacity: .05;
         font-size: calc(52px + (70 - 52) * ((100vw - 320px) / (1920 - 320)));
@@ -63,38 +61,8 @@
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
     }
-    ///card name size according to screen size
-     .cardname{
-        //xs
-        line-height: 22px;
-            height: 25px;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            display: -webkit-box;
-            overflow: hidden;
-        @media (min-width: 576px) {
-    //sm 
-     
-            line-height: 22px;
-            height: 25px;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            display: -webkit-box;
-            overflow: hidden;
-        }
-        @media (min-width: 768px) {
-    //md & lg & xl & xxl
-           
-                line-height: 22px;
-                height: 45px;
-                -webkit-line-clamp: 2;
-                -webkit-box-orient: vertical;
-                display: -webkit-box;
-                overflow: hidden;
-            }
-            
-        }
-    
-       
-       
+    //card height
+    .product-list{
+        height: 220px;
+    }
         }

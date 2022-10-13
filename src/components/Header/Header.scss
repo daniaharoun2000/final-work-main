@@ -42,12 +42,45 @@
 }
 
   //////////////////////////section 2/////////////////////////////
+
 // fixed-nav in section 2
 
 .fixed-nav {
   z-index: 999;
 }
 
+////Cart Icon
+.cartshoppingicon{
+
+  font-size: 2rem;
+  color: white;
+}
+.cartshoppingtext{
+  width: 18px;
+  height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #ff7272;
+  font-size: 12px;
+  border-radius: 2px;
+  position: absolute;
+  transform: translate(-50%, -50%) !important;
+top: 20px;
+left: 100%;
+ font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
   //locationbuttontwo in section 2
 
   .locationbuttontwo{

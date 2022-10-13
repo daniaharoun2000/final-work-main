@@ -1,43 +1,43 @@
 #main-about {
 
-    .homeicon{
-    width: 30px;
+  .homeicon{
+  width: 30px;
 }
 
 li {
-    display: inline-block;
+  display: inline-block;
 }
 .aboutrowhover:hover{
 
-    background-color: rgb(236, 236, 236);
-    color: black;
-    }
+  background-color: rgb(236, 236, 236);
+  color: black;
+  }
 
-  .olabout  {
+.olabout  {
 
-  text-align: end;
-  justify-content: end;
+text-align: end;
+justify-content: end;
 
 @media (max-width: 575px)
 {
+  text-align: center;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+}
+.textabout  {
+
+  text-align: start;
+  justify-content: start;
+  font-size: 20px;
+  font-weight: 700;
+
+@media (max-width: 575px)
+{
+  font-size: 18px;
     text-align: center;
-    margin-bottom: 8px;
     justify-content: center;
+    margin-bottom: 2%;
 }
   }
-  .textabout  {
-
-    text-align: start;
-    justify-content: start;
-    font-size: 20px;
-    font-weight: 700;
-
-  @media (max-width: 575px)
-  {
-    font-size: 18px;
-      text-align: center;
-      justify-content: center;
-      margin-bottom: 2%;
-  }
-    }
 }
