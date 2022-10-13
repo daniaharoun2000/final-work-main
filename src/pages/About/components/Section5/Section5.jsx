@@ -2,7 +2,6 @@
 //  Swiper (slider)
 import { Autoplay, Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import React, { Component }  from 'react';
 
 import "swiper/css";
 import { Col, Row } from "react-bootstrap";

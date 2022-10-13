@@ -4,7 +4,6 @@ import About from './pages/About';
 import "./index.scss"; //the main scss for all project
 import Cart from './pages/Cart/index';
 import { Layout } from "./components"; //layout that has a header sections
-import React, { Component }  from 'react';
 
 ////start of App  function///
 

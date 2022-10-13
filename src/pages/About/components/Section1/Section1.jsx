@@ -4,7 +4,6 @@ import { Col, Row } from "react-bootstrap";
 import homeiconforaboutsection from '../../images/homeiconforaboutsection.svg';//home icon svg 
 import Container from "../../../../components/Container";//my Container
 import './Section1.scss'; //styling for this section
-import React, { Component }  from 'react';
 
 ////start of Section1 function///
 function Section1() {

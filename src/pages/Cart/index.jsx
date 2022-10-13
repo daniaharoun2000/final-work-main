@@ -4,7 +4,7 @@ import MobileMenu from '../Home/components/MobileNavbar/MobileMenu';
 import Footer from '../../components/Footer/index';
 import Section1 from './components/Section1/Section1';
 import Section2 from './components/Section2/Section2';
-import React, { Component }  from 'react';
+import React from 'react';
 
 ////start of cart  function///
 

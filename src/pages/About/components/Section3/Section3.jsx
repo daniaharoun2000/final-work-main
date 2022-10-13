@@ -6,7 +6,6 @@ import "swiper/css";
 import { Col, Row } from "react-bootstrap";
 import { Container } from "../../../../components";
 import './Section3.scss'; //styling for this section
-import React, { Component }  from 'react';
 
 ////start of Section3 function and export it///
 

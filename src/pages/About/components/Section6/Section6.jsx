@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Col, Row } from "react-bootstrap";
 import { Container } from "../../../../components";
-import React, { Component }  from 'react';
 
 ////start of Section6 function and export it///
 

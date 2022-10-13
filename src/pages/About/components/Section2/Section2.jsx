@@ -3,7 +3,6 @@
 import { Col, Row } from "react-bootstrap";
 import Container from "../../../../components/Container";//my Container
 import './Section2.scss'; //styling for this section
-import React, { Component }  from 'react';
 
 ////start of Section2 function///
 function Section2() {

@@ -4,7 +4,6 @@ import { Col, Row } from "react-bootstrap";
 import Container from "../../../../components/Container";//my Container
 import './Section2.scss'; //styling for this section
 import returnarrow from '../../images/returnarrow.svg'
-import React, { Component }  from 'react';
 
 ////start of Section2 function///
 function Section2() {
@@ -57,7 +56,7 @@ function Section2() {
                                         </td>
                                         <td>
                                             <h5 className="text-primary">Action</h5>
-                                            <a>Remove</a>
+                                            <a href="/">Remove</a>
                                         </td>
                                     </tr>
 

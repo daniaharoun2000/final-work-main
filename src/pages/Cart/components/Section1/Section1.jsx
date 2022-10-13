@@ -1,7 +1,6 @@
 //Section1 Section from cart Page by Dania Haroun !!!
 //this section has a page sequence (home->cart)
 import { Col, Row } from "react-bootstrap";
-import React, { Component }  from 'react';
 import homeiconforcartsection from '../../images/homeiconforcartsection.svg';//home icon svg 
 import Container from "../../../../components/Container";//my Container
 import './Section1.scss'; //styling for this section

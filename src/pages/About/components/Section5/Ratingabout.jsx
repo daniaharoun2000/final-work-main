@@ -2,7 +2,6 @@
 // Rating will be used in Top Save Today & Food Cupboard sections
 import { Col,Row } from 'react-bootstrap';
 import './Ratingabout.scss';
-import React, { Component }  from 'react';
 
 ////start of Rating function and export it///
 
