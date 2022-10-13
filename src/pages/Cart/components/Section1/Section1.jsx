@@ -13,14 +13,14 @@ function Section1() {
             {/* here is 1 row with 2 cols */}
         <Row>        
                 {/* first col has an cart title */}
-             <Col xl={6} md={6}>
+             <Col xl={6} xs={6}>
                     <div className="textabout">
                        Cart
                         </div>
               </Col>
                               {/* 2nd col has  a page sequence (home->cart) */}
 
-<Col xl={6} md={6}>
+<Col xl={6} xs={6}>
 {/* The <ol> tag defines an ordered list. An ordered list can be numerical or alphabetical. */}
                             <ol className="olabout p-0 align-items-center d-flex">
                                 <li>
