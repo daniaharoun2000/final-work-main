@@ -8,10 +8,15 @@ import LocationBar from "./LocationBar"; // LocationBar component
 import SearchBar from "./SearchBar";// SearchBar component
 import OffcanvasNavbar from "./OffcanvasNavbar"; //this is offcanvas navbar component that will appear when the page size reduce
 import Container from "../../Container";  //my container
-
+import { useCart } from "react-use-cart"; //react-use-cart is a lightweight shopping cart hook for React, Next. js, and Gatsby
 //// start of Section2 function(Sticky Header) ///
 
 function Section2() {
+  
+  const {
+    totalItems
+} = useCart();
+
   /////////////----------------This is function for fixed the navbar when the user scrolled---------------------------/////////////////
   const [fix, setFix] = useState(false); //make fix=false at the beginning ande will change when user scroll
   function setFixed() {
@@ -213,7 +218,8 @@ if (window.scrollY >= 43) { //if the pixels a document has scrolled from the upp
                         <circle cx="20" cy="21" r="1"></circle>
                         <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
                       </svg></span>
-                      <span className="cartshoppingtext text-badge">{0}</span>
+                      
+                     <span className="cartshoppingtext text-badge">{totalItems}</span>
                       </a>
                     </li>
                      

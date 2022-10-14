@@ -7,10 +7,7 @@ import { CartProvider } from "react-use-cart";
 export default function CCart() {
   return (
     <div>
-      <CartProvider>
-        <Cart />
-       <Home/>
-      </CartProvider>
+      <Cart/>
     </div>
   );
 }

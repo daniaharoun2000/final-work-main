@@ -1,5 +1,7 @@
 import Itemcart from "./ItemCart";
 import data from "./Data";
+import FoodCupboardSlider from "../Home/components/Slider/FoodCupboardSlider";
+import SlideContent from "../Home/components/Slider/SlideContent";
 
 export default function Home() {
   return (
@@ -9,7 +11,7 @@ export default function Home() {
         <div className="row justify-content-center">
           {data.productData.map((items) => {
             return (
-              <Itemcart
+              <SlideContent
                 key={items.id}
                 Title={items.title}
             
@@ -17,7 +19,9 @@ export default function Home() {
                 price={items.price}
                 item={items}
               />
+              
             );
+            
           })}
         </div>
       </section>

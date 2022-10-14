@@ -4,10 +4,25 @@ import { Col, Row } from "react-bootstrap";
 import Container from "../../../../components/Container";//my Container
 import './Section2.scss'; //styling for this section
 import returnarrow from '../../images/returnarrow.svg'
+import { useCart } from "react-use-cart"; //react-use-cart is a lightweight shopping cart hook for React, Next. js, and Gatsby
 
 ////start of Section2 function///
 function Section2() {
+    
+    const {
+        isEmpty,
+        totalUniqueItems,
+        items,
+        totalItems,
+        cartTotal,
+        updateItemQuantity,
+        removeItem,
+        emptyCart
+      } = useCart();
+      if (isEmpty) return <h1 className="text-center">Cart Empty</h1>;
+      
   return (
+    
     <div>
       <Container>
         {/* row with 2 cols */}
@@ -16,55 +31,77 @@ function Section2() {
                 <Col xxl={9}>
                     <div >
                         <div className="table-responsive-xl">
+                        <h6>cart =({totalUniqueItems})</h6>
+          <h6>total items={totalItems}</h6>
                             <table>
                                 <tbody>
-                                    {/* first tr */}
-                                <tr className="cartborder">
+                                {items.map((item, index) => {
+                                    
+                return (
+                                   
+                                <tr className="cartborder" key={index}>
+                                    
                                     <td>
                                     <a href="/home">
-                                                    <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/2.png" className="w-75 h-100" alt=""/>
+                                                    <img src={item.image} className="w-75 h-100" alt=""/>
                                                 </a>
                                            
                                         </td>
                                          <td>
-                                            <h5 className="text-themecolor">Name : </h5>
-                                            <h5>Juice</h5>
+                                            <h6 className="text-themecolor">Name : </h6>
+                                            <h6>{item.title}</h6>
                                            
                                         </td>
                                         <td>
-                                            <h5 className="text-themecolor">Price</h5>
-                                            <h5>$35.10 </h5>
+                                            <h6 className="text-themecolor">Price</h6>
+                                            <h6>{item.price} </h6>
                                            
                                         </td>
                                         <td>
-                                            <h5 className="text-themecolor">Qty</h5>
-                                          
-                                                   
-                                                        <button type="button" className="btn qty-left-minus" data-type="minus" data-field="">
-                                                            <i className="fa fa-minus ms-0" aria-hidden="true"></i>
-                                                        </button>
-                                                        <input className="form-control input-number qty-input" type="text" name="quantity" value="0"/>
-                                                        <button type="button" className="btn qty-right-plus" data-type="plus" data-field="">
-                                                            <i className="fa fa-plus ms-0" aria-hidden="true"></i>
-                                                        </button>
-                                                    
+                                        <h6 className="text-themecolor">Quantity</h6>
+                                            <h6>({item.quantity}) </h6>
                                                
                                         </td>
                                         <td>
-                                            <h5 className="text-themecolor">Total</h5>
-                                            <h5 className="text-dd">$35.10</h5>
+                      <button
+                        onClick={() =>
+                          updateItemQuantity(item.id, item.quantity - 1)
+                        }
+                        className="btn btn-info ms-2"
+                      >
+                        -
+                      </button>
+                      <button
+                        onClick={() => {
+                          updateItemQuantity(item.id, item.quantity + 1);
+                        }}
+                        className="btn btn-info ms-2"
+                      >
+                        +
+                      </button>
+                      
+                    </td>
+                                        <td>
+                                       
+                                            <h6 className="text-themecolor">Total</h6>
+                                            <h6 className="text-dd">{item.price*item.quantity}</h6>
                                         </td>
                                         <td>
-                                            <h5 className="text-themecolor">Action</h5>
-                                            <a href="/">Remove</a>
+                                            <h6 className="text-themecolor">Action</h6>
+                                            <button
+                        className="btn btn-danger ms-2 my-2"
+                        onClick={() => {
+                          removeItem(item.id);
+                        }}
+                      >
+                        remove
+                      </button>
                                         </td>
                                     </tr>
-
-
-                               
-
+                )})}
                                 </tbody>
                             </table>
+               
                         </div>
                     </div>
                 </Col>
@@ -78,15 +115,15 @@ function Section2() {
 
               
                         <div className="mt-3 cartborder">
-                            <Row><Col xs={6}>  <h5 className="text-aa">Total (USD)</h5>
+                            <Row><Col xs={6}>  <h6 className="text-aa">Total (USD)</h6>
 </Col>
-                                <Col xs={6}>   <h5 className="text-themecolor justify-content-end d-flex">$132.58</h5>
+                                <Col xs={6}>   <h6 className="text-themecolor justify-content-end d-flex">{cartTotal}</h6>
 </Col></Row>
                          </div>
 
                         <div className="mt-3">
                             <Row>
-                                        <Col xl={12}><button className="btn btn-dd text-badge ps-3 pe-3 w-100">
+                                        <Col xl={12}><button className="btn btn-dd text-badge ps-3 pe-3 w-100 bg-dark">
                                         <h6 className="w-100 justify-content-center d-flex">Process To Checkout</h6></button></Col>
                                         <Col xl={12}><div className="align-items-center"> <button className="btn btn-bgray text-dark ps-3 pe-3 w-100 mt-2 mb-5">
                                         <h6 className="w-100 justify-content-center d-flex"><img src={returnarrow} className="returnarrowsize me-1"alt=""/>Return To Shopping</h6></button>  </div></Col>
@@ -102,8 +139,13 @@ function Section2() {
    
       </Container>
     </div>
+    
   );
+ 
 }
+
 export default Section2;//export Section2 function to use it when It needed 
+
+
 ////End of Section2 function///
 

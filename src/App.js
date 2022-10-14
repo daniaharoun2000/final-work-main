@@ -5,7 +5,7 @@ import "./index.scss"; //the main scss for all project
 import CCart from './pages/Cart/index';
 import { Layout } from "./components"; //layout that has a header sections
 import React from 'react';
-
+import data from "./pages/Cart/Data";
 ////start of App  function///
 
 function App() {
@@ -27,9 +27,9 @@ function App() {
   //   ],
   // };
 
-  // const { cartProducts } = state;
+  // const { cartProducts } = data();
   // const total = cartProducts.reduce((a, b) => {
-  //   return a + b.price * b.qty;
+  //   return a + b.price ;
   // }, 0);
   // console.log("total", total);
 // .myBtn {

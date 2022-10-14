@@ -3,12 +3,17 @@
 import { Autoplay,  Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row,Button } from "react-bootstrap";
 import Rating from "../Rating";
 import AddButton from "../AddButton";
+import { useCart } from "react-use-cart";
+import SlideContent from "./SlideContent";
+import data from "../../../Cart/Data";
 ////start of FoodCupboardSlider function and export it///
 
-export default function FoodCupboardSlider() {
+export default function FoodCupboardSlider(props) {
+  const { addItem } = useCart();
+
   return (
     <>
       <div>
@@ -77,144 +82,21 @@ export default function FoodCupboardSlider() {
                     }}
                   >
                                              {/* in every  swiper slide there is an img with text*/}
-   
+                                             {data.productData.map((items) => {
+            return (
                     <SwiperSlide>
-                    <div className="p-3 border cardhovering">
-                              <img
-                                src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/1.png"
-                                className="w-100 margintoptodayimage imghovering"
-                                alt=""
-                              />
-
-                              <a href="/" tabIndex="0">
-                                <h6 className="name">
-                                  Fantasy Crunchy Choco Chip Cookies
-                                </h6>
-                              </a>
-
-                              <h5 className="sold text-content">
-                                <span className="text-themecolor price">
-                                  $26.69
-                                </span>
-                                <del className="dell">28.56</del>
-                              </h5>
-
-                              <div className="product-rating mt-2">
-                                <Rating />
-                              </div>
-                              <AddButton />
-                            </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="p-3 border cardhovering">
-                              <img
-                              src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/3.png"
-                                className="w-100 margintoptodayimage imghovering"
-                                alt=""
-                              />
-
-                              <a href="/" tabIndex="0">
-                                <h6 className="name">
-                                Peanut Butter Bite Premium Butter Cookies 600 g
-                                </h6>
-                              </a>
-
-                              <h5 className="sold text-content">
-                                <span className="text-themecolor price">
-                                  $26.69
-                                </span>
-                                <del className="dell">28.56</del>
-                              </h5>
-
-                              <div className="product-rating mt-2">
-                                <Rating />
-                              </div>
-                              <AddButton />
-                            </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="p-3 border cardhovering">
-                              <img
-                                src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/5.png
-                                "
-                                className="w-100 margintoptodayimage imghovering"
-                                alt=""
-                              />
-
-                              <a href="/" tabIndex="0">
-                                <h6 className="name">
-                                Yumitos Chilli Sprinkled Potato Chips 100 g
-                                                        
-                                </h6>
-                              </a>
-
-                              <h5 className="sold text-content">
-                                <span className="text-themecolor price">
-                                  $26.69
-                                </span>
-                                <del className="dell">28.56</del>
-                              </h5>
-
-                              <div className="product-rating mt-2">
-                                <Rating />
-                              </div>
-                              <AddButton />
-                            </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="p-3 border cardhovering">
-                              <img
-                                src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/6.png"
-                                className="w-100 margintoptodayimage imghovering"
-                                alt=""
-                              />
-
-                              <a href="/" tabIndex="0">
-                                <h6 className="name">
-                                Neu Farm Unpolished Desi Toor Dal 1 kg
-                                </h6>
-                              </a>
-
-                              <h5 className="sold text-content">
-                                <span className="text-themecolor price">
-                                  $26.69
-                                </span>
-                                <del className="dell">28.56</del>
-                              </h5>
-
-                              <div className="product-rating mt-2">
-                                <Rating />
-                              </div>
-                              <AddButton />
-                            </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="p-3 border cardhovering">
-                              <img
-                                src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/4.png"
-                                className="w-100 margintoptodayimage imghovering"
-                                alt=""
-                              />
-
-                              <a href="/" tabIndex="0">
-                                <h6 className="name">
-                                Dark Chocalate
-                                </h6>
-                              </a>
-
-                              <h5 className="sold text-content">
-                                <span className="text-themecolor price">
-                                  $26.69
-                                </span>
-                                <del className="dell">28.56</del>
-                              </h5>
-
-                              <div className="product-rating mt-2">
-                                <Rating />
-                              </div>
-                              <AddButton />
-                            </div>
-                    </SwiperSlide>
+               
+              <SlideContent
+                key={items.id}
+                Title={items.title}
+            
+                img={items.image}
+                price={items.price}
+                item={items}
+              />
+              
+           </SwiperSlide>
+                 );})}
                     <div className="slider__controls">
 
 <div className="slider__pagination"></div>
