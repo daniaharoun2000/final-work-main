@@ -40,7 +40,6 @@ export default function FoodCupboardSlider() {
                   <Swiper
                     spaceBetween={0}
                     // slidesPerView={7}
-                    onSlideChange={() => console.log("slide change")}
                     onSwiper={(swiper) => console.log(swiper)}
                     modules={[Autoplay, Pagination, Navigation, Lazy]}
                     autoplay={{ delay: 2000 }}
@@ -77,15 +76,16 @@ export default function FoodCupboardSlider() {
                       },
                     }}
                   >
-                                             {/* in every  swiper slide there is an img with text*/}
+                    {/* here , each item will mapped and shown */}
                                              {data.productData.map((items) => {
             return (
-                    <SwiperSlide>
-               
+              //  {/* in every  swiper slide there is an img with text*/}
+
+                    <SwiperSlide  key={items.id}>
+               {/* here I call SlideContent component and give it some props*/}
               <SlideContent
                 key={items.id}
                 Title={items.title}
-            
                 img={items.image}
                 price={items.price}
                 item={items}
@@ -93,6 +93,7 @@ export default function FoodCupboardSlider() {
               
            </SwiperSlide>
                  );})}
+                 {/*  slider__pagination*/}
                     <div className="slider__controls">
 
 <div className="slider__pagination"></div>

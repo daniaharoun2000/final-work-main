@@ -5,7 +5,6 @@ import Footer from '../../components/Footer/index';
 import Section1 from './components/Section1/Section1';
 import Section2 from './components/Section2/Section2';
 import React from 'react';
-import Home from './Home';
 
 ////start of cart  function///
 
@@ -20,7 +19,7 @@ function Cart() {
         {/* Section 2 section */}
        <Section2/>
       </section>
-   
+   {/* footer and MobileMenu */}
          <div id="main-home" className='pt-5'> <Footer/>
       <MobileMenu />
       </div>

@@ -33,7 +33,6 @@ export default function Section3() {
                        slidesPerView={3}
                       scrollbar={{ draggable: true }}
                       onSwiper={(swiper) => console.log(swiper)}
-                      onSlideChange={() => console.log('slide change')}
                       modules={[Autoplay, Pagination, Navigation, Lazy]}
                       autoplay={{ delay: 2000 }}
                       lazy={true}

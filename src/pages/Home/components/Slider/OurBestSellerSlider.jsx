@@ -42,7 +42,6 @@ export default function OurBestSellerSlider() {
                       // slidesPerView={7}
                       scrollbar={{ draggable: true }}
                       onSwiper={(swiper) => console.log(swiper)}
-                      onSlideChange={() => console.log('slide change')}
                       modules={[Autoplay, Pagination, Navigation, Lazy]}
                       autoplay={{ delay: 2000 }}
                       lazy={true}

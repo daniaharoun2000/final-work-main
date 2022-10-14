@@ -31,7 +31,6 @@ export default function Section4() {
                   
                     spaceBetween={0}
                     // slidesPerView={7}
-                    onSlideChange={() => console.log("slide change")}
                     onSwiper={(swiper) => console.log(swiper)}
                     modules={[Autoplay, Pagination, Navigation, Lazy]}
                     autoplay={{ delay: 2000 }}

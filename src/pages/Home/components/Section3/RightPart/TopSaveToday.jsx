@@ -75,9 +75,12 @@ function TopSaveToday() {
 {/* in xxl -> show 4 cols  , in xl -> show 3 cols ,in lg -> show 3 cols , in md -> show 3 cols ,in sm -> show 3 cols ,  in xs -> show 2 cols*/}
         <Row className="row-cols-xxl-4 row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-2 me-0 ms-0">
               {/* there is 10 cols */}
+                                  {/* here , each item will mapped and shown */}
+
               {data.productData.map((items) => {
             return (
-               
+                              // {/* here I call SlideContent component and give it some props*/}
+
               <SlideContent
                 key={items.id}
                 Title={items.title}
