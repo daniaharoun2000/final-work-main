@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home"; //the home page that contains every thing in this project
 import About from './pages/About';
 import "./index.scss"; //the main scss for all project
-import CCart from './pages/Cart/index';
+import Cart from './pages/Cart/index';
 import { Layout } from "./components"; //layout that has a header sections
 import React from 'react';
 import data from "./pages/Cart/Data";
@@ -68,7 +68,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
-          <Route path="/cart" exact element={<CCart />} />
+          <Route path="/cart" exact element={<Cart />} />
 
         </Routes>
       </Layout>

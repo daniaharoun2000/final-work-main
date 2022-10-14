@@ -2,16 +2,22 @@
 // AddButton will be used in Top Save Today & Food Cupboard sections
 import {Row,Col,Button} from "react-bootstrap";
 import "./AddButton.scss";
+import { useCart } from "react-use-cart";
 
 ////start of AddButton function///
 
-function AddButton() {
+function AddButton(props) {
+
+  const { addItem } = useCart();
+
   return (
     <div>
       
         {/* here we have a row with 2 columns(the columns are in a Button )  */}
         <Row>
-            <Button className="bg-cat buttonclass mt-2">
+            <Button className="bg-cat buttonclass mt-2" onClick={() => {
+              addItem(props.item);
+            }}>
               {/* the first col has an "ADD" text */}
           <Col xl={6} xs={6}>
             <div className="justify-content-end d-flex" > Add</div>

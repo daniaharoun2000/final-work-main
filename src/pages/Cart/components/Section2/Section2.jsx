@@ -1,6 +1,6 @@
 //Section2 Section from About Page by Dania Haroun !!!
 //this section has a page sequence (home->about)
-import { Col, Row } from "react-bootstrap";
+import { Col, Row,Button } from "react-bootstrap";
 import Container from "../../../../components/Container";//my Container
 import './Section2.scss'; //styling for this section
 import returnarrow from '../../images/returnarrow.svg'
@@ -41,61 +41,62 @@ function Section2() {
                                    
                                 <tr className="cartborder" key={index}>
                                     
-                                    <td>
-                                    <a href="/home">
-                                                    <img src={item.image} className="w-75 h-100" alt=""/>
+                                    <td className="pe-3 py-3">
+                                    <a href="/">
+                                                    <img src={item.image} className=" cartitemimg" alt=""/>
                                                 </a>
                                            
                                         </td>
-                                         <td>
+                                         <td className="pe-5 py-3">
                                             <h6 className="text-themecolor">Name : </h6>
                                             <h6>{item.title}</h6>
                                            
                                         </td>
-                                        <td>
+                                        <td className="pe-5 py-3">
                                             <h6 className="text-themecolor">Price</h6>
                                             <h6>{item.price} </h6>
                                            
                                         </td>
-                                        <td>
+                                        <td className="pe-5 py-3">
                                         <h6 className="text-themecolor">Quantity</h6>
                                             <h6>({item.quantity}) </h6>
                                                
                                         </td>
-                                        <td>
-                      <button
+                                        <td className="pe-5 py-3" >
+                      <Button
                         onClick={() =>
                           updateItemQuantity(item.id, item.quantity - 1)
                         }
-                        className="btn btn-info ms-2"
+                        className="bg-gg text-badge mb-2 quantitybutton rounded-circle"
                       >
-                        -
-                      </button>
-                      <button
+  <h6 className="m-0 p-0 text-gray">-</h6>
+
+                      </Button>
+                      <Button
                         onClick={() => {
                           updateItemQuantity(item.id, item.quantity + 1);
                         }}
-                        className="btn btn-info ms-2"
+                        className="bg-gg text-badge quantitybutton rounded-circle"
                       >
-                        +
-                      </button>
+                        <h6 className="m-0 p-0 me-0 text-gray">+</h6>
+                      </Button>
                       
                     </td>
-                                        <td>
+                                        <td className="pe-5 py-3">
                                        
                                             <h6 className="text-themecolor">Total</h6>
-                                            <h6 className="text-dd">{item.price*item.quantity}</h6>
+                                            <h6>{item.price*item.quantity}</h6>
                                         </td>
                                         <td>
                                             <h6 className="text-themecolor">Action</h6>
-                                            <button
-                        className="btn btn-danger ms-2 my-2"
+                                            <Button
+                        className="text-dd m-0 p-0"
                         onClick={() => {
                           removeItem(item.id);
                         }}
                       >
-                        remove
-                      </button>
+                      <h6>Remove</h6>  
+                      </Button>
                                         </td>
                                     </tr>
                 )})}
@@ -123,10 +124,10 @@ function Section2() {
 
                         <div className="mt-3">
                             <Row>
-                                        <Col xl={12}><button className="btn btn-dd text-badge ps-3 pe-3 w-100 bg-dark">
-                                        <h6 className="w-100 justify-content-center d-flex">Process To Checkout</h6></button></Col>
-                                        <Col xl={12}><div className="align-items-center"> <button className="btn btn-bgray text-dark ps-3 pe-3 w-100 mt-2 mb-5">
-                                        <h6 className="w-100 justify-content-center d-flex"><img src={returnarrow} className="returnarrowsize me-1"alt=""/>Return To Shopping</h6></button>  </div></Col>
+                                        <Col xl={12}><Button className="btn btn-dd text-badge ps-3 pe-3 w-100 bg-dark">
+                                        <h6 className="w-100 justify-content-center d-flex">Process To Checkout</h6></Button></Col>
+                                        <Col xl={12}><div className="align-items-center"> <Button className="btn btn-bgray text-dark ps-3 pe-3 w-100 mt-2 mb-5">
+                                        <h6 className="w-100 justify-content-center d-flex"><img src={returnarrow} className="returnarrowsize me-1"alt=""/>Return To Shopping</h6></Button>  </div></Col>
                                       
                                         </Row>
                                 </div>

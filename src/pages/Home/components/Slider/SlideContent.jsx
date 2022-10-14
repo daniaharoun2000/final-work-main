@@ -1,6 +1,6 @@
 import Rating from "../Rating";
 import AddButton from "../AddButton";
-import { Card, Button } from "react-bootstrap";
+import { Col, Row,Button } from "react-bootstrap";
 
 import { useCart } from "react-use-cart";
 
@@ -24,20 +24,26 @@ src={props.img}  className="w-100 margintoptodayimage imghovering"
   <span className="text-themecolor price">
   {props.price} 
   </span>
-  <del className="dell">28.56</del>
+  <del className="dell">20</del>
 </h5>
 
-<div className="product-rating mt-2">
+<div className="product-rating mt-2 mb-2">
   <Rating />
 </div>
+<Row >
 <Button
-            variant="themecolor"
+           className="bg-cat border-light rounded-pill"
             onClick={() => {
               addItem(props.item);
             }}
           >
-            Add to cart
-          </Button>
+           <Col xl={12} xs={12}>
+            <div className="justify-content-center d- text-gray" > Add</div>
+            </Col>   
+                          {/* the 2nd col has a div that contain (+) icon  */}
+
+        
+          </Button></Row>
 </div>
 );
 }

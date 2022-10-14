@@ -55,12 +55,12 @@ if (window.scrollY >= 43) { //if the pixels a document has scrolled from the upp
                 </Col>
    {/* the 2nd column -> fastcart logo  */}
 
-                <Col xl={8} md={6} xs={3}>
+                <Col xl={8} md={6} xs={3}><a href="/">
                   <img
                     src={logo}
                     alt="logo"
                     className="align-items-center w-100"
-                  />
+                  /></a>
                 </Col>
                    {/* the 3rd column -> LocationBar component  */}
                 <Col md={3} xs={2} className="d-xl-none d-md-block d-none">

@@ -3,16 +3,12 @@
 import { Autoplay,  Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Col, Row,Button } from "react-bootstrap";
-import Rating from "../Rating";
-import AddButton from "../AddButton";
-import { useCart } from "react-use-cart";
+import { Col, Row } from "react-bootstrap";
 import SlideContent from "./SlideContent";
 import data from "../../../Cart/Data";
 ////start of FoodCupboardSlider function and export it///
 
-export default function FoodCupboardSlider(props) {
-  const { addItem } = useCart();
+export default function FoodCupboardSlider() {
 
   return (
     <>

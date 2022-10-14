@@ -9,11 +9,29 @@
 .returnarrowsize{
     width: 20px;
 }
-  
-     td {
-        padding: calc(16px + (22 - 16) * ((100vw - 320px) / (1920 - 320))) 16px;
-        min-width: 30px;
+
+    .quantitybutton{
+        width: 10px;
+    justify-content: center;
+
     }
-    
-  
+    .cartitemimg{
+        width: 90px;
+        @media (max-width: 1400px){
+            width: 80px;
+        }
+        @media (max-width: 1200px)
+{ width: 90px;
+}
+@media (max-width: 768px)
+{
+    width: 90px;
+}
+@media (max-width: 576px)
+{
+    width: 70px;
+}
+
+}
+   
 }
