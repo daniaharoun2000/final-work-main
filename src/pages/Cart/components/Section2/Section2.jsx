@@ -152,7 +152,7 @@ function Section2() {
                             <Row>
                                         <Col xl={12}><Button className="btn btn-dd text-badge ps-3 pe-3 w-100 bg-dark">
                                         <h6 className="w-100 justify-content-center d-flex">Process To Checkout</h6></Button></Col>
-                                        <Col xl={12}><div className="align-items-center"> <Button className="btn btn-bgray text-dark ps-3 pe-3 w-100 mt-2 mb-5">
+                                        <Col xl={12}><div className="align-items-center"> <Button className="btn btn-bgray text-dark ps-3 pe-3 w-100 mt-2 mb-5" href="/">
                                         <h6 className="w-100 justify-content-center d-flex"><img src={returnarrow} className="returnarrowsize me-1"alt=""/>Return To Shopping</h6></Button>  </div></Col>
                                       
                                         </Row>
